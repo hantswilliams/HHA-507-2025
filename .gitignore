@@ -3,6 +3,8 @@
 
 # Ignore the sqlite db
 example.db
+patients.db
+
 
 # Datasets
 Module1_MedicalCodexes/loinc/Loinc.csv

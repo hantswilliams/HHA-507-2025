@@ -1,3 +1,3 @@
 select * 
-from patients_details
+from patients_diseases
 where primary_icd10 = 'F41.9';

@@ -32,7 +32,7 @@ data = {
     'length_of_stay': np.random.lognormal(1.2, 0.8, n).clip(1, 30).astype(int),
     'total_charges': np.random.lognormal(9, 1.2, n).clip(1000, 500000),
     'discharge_disposition': np.random.choice(['Home', 'SNF', 'Rehab', 'Transfer', 'Death'], 
-                                             n, p=[0.65, 0.15, 0.10, 0.08, 0.02]),
+                                             n, p=[0.80, 0.10, 0.03, 0.05, 0.02]),
     'primary_diagnosis': np.random.choice(['Heart Disease', 'Pneumonia', 'Diabetes', 'Stroke', 'Cancer'],
                                          n, p=[0.25, 0.20, 0.20, 0.15, 0.20]),
     'readmission_30d': np.random.choice([0, 1], n, p=[0.85, 0.15]),
@@ -44,8 +44,10 @@ data = {
 df = pd.DataFrame(data)
 
 # Introduce some missing values to simulate real data
-missing_indices = np.random.choice(df.index, size=int(n*0.05), replace=False)
+missing_indices = np.random.choice(df.index, size=int(n*0.05))
 df.loc[missing_indices, 'total_charges'] = np.nan
+df.loc[missing_indices, 'age'] = 0
+
 
 print(f"Dataset created with {len(df)} patient records")
 
@@ -56,6 +58,8 @@ print(f"Dataset created with {len(df)} patient records")
 print("=" * 60)
 print("DATA CLEANING AND OVERVIEW")
 print("=" * 60)
+
+print(f'this is hants, hants was here + {df.shape}')
 
 # Basic dataset information
 print(f"Dataset shape: {df.shape}")
@@ -73,11 +77,12 @@ missing_summary = pd.DataFrame({
     'Missing_Count': missing_counts,
     'Missing_Percentage': missing_pct
 })
-print(missing_summary[missing_summary['Missing_Count'] > 0])
 
 # Basic descriptive statistics
 print("\nBasic descriptive statistics:")
 print(df.describe())
+descriptive_describe = df.describe()
+descriptive_describe.to_csv('descriptive_describe.csv')
 
 # ============================================================================
 # STEP 3: FREQUENCY ANALYSIS
@@ -90,9 +95,13 @@ print("=" * 60)
 # 3A. Categorical variable frequency analysis
 print("\n1. CATEGORICAL VARIABLES - Frequency Tables")
 
+
+df['surgery_performed'].value_counts()
+
+
 # Gender frequency table - demonstrate all frequency types
 print("\nGender Distribution:")
-gender_freq = df['gender'].value_counts().sort_index()
+gender_freq = df['gender'].value_counts()
 gender_rel_freq = df['gender'].value_counts(normalize=True).sort_index()
 gender_cum_freq = gender_freq.cumsum()
 gender_rel_cum_freq = gender_rel_freq.cumsum()
@@ -104,11 +113,12 @@ freq_table = pd.DataFrame({
     'Relative_Cumulative': gender_rel_cum_freq
 })
 print(freq_table)
+freq_table.to_csv('gender_distribution.csv')
 
 # 3B. Cross-tabulation example
 print("\n2. CROSS-TABULATION (Pivot Tables)")
-crosstab = pd.crosstab(df['gender'], df['discharge_disposition'], margins=True)
-print("\nGender vs Discharge Disposition:")
+crosstab = pd.crosstab(df['gender'], df['surgery_performed'], margins=True)
+print("\nGender vs Surgery Performed:")
 print(crosstab)
 
 # Proportions in cross-tab
@@ -119,8 +129,8 @@ print(crosstab_prop.round(3))
 # 3C. Grouped frequency for continuous variables
 print("\n3. GROUPED FREQUENCY - Age Categories")
 df['age_group'] = pd.cut(df['age'], bins=[18, 35, 50, 65, 80, 95], 
-                        labels=['18-34', '35-49', '50-64', '65-79', '80+'])
-age_group_freq = df['age_group'].value_counts().sort_index()
+                        labels=['A', 'B', 'C', 'D', 'E'])
+age_group_freq = df['age_group'].value_counts().sort_index(ascending=True)
 print(age_group_freq)
 
 # ============================================================================

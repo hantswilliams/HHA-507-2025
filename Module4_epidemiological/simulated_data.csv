@@ -1,0 +1,1001 @@
+id,name,age,gender,address,is_smoker,at_risk,has_cancer,is_new_case
+1,Allison Hill,69,Male,"126 Church Street, Millbrook, NY 12545",True,False,False,False
+2,Noah Rhodes,32,Female,"217 Church Street, Millbrook, NY 12545",True,True,False,False
+3,Angie Henderson,78,Female,"285 Elm Street, Millbrook, NY 12545",True,True,False,False
+4,Daniel Wagner,38,Male,"39 Route 82, Millbrook, NY 12545",False,False,False,False
+5,Cristian Santos,41,Male,"184 Route 82, Millbrook, NY 12545",True,False,False,False
+6,Connie Lawrence,20,Male,"427 Church Street, Millbrook, NY 12545",False,False,False,False
+7,Abigail Shaffer,39,Male,"407 Hill Street, Millbrook, NY 12545",True,True,False,False
+8,Gina Moore,70,Female,"294 Franklin Avenue, Millbrook, NY 12545",True,True,False,False
+9,Gabrielle Davis,19,Female,"151 Chestnut Ridge Road, Millbrook, NY 12545",True,True,False,False
+10,Ryan Munoz,47,Male,"126 Park Avenue, Millbrook, NY 12545",True,True,False,False
+11,Monica Herrera,55,Female,"308 Chestnut Ridge Road, Millbrook, NY 12545",True,True,False,False
+12,Jamie Arnold,19,Female,"434 Cedar Road, Millbrook, NY 12545",False,False,False,False
+13,Lisa Hensley,81,Female,"380 Oak Lane, Millbrook, NY 12545",False,True,False,False
+14,Michele Williams,77,Female,"8 Church Street, Millbrook, NY 12545",False,True,False,False
+15,Dylan Miller,38,Male,"341 Main Street, Millbrook, NY 12545",True,True,True,False
+16,Brian Ramirez,50,Male,"264 Park Avenue, Millbrook, NY 12545",True,True,False,False
+17,Holly Wood,75,Female,"352 Maple Avenue, Millbrook, NY 12545",False,True,False,False
+18,Derek Zuniga,39,Male,"5 Route 82, Millbrook, NY 12545",True,False,True,False
+19,Lisa Jackson,66,Male,"86 Route 82, Millbrook, NY 12545",True,True,False,False
+20,Carla Gray,76,Male,"290 Main Street, Millbrook, NY 12545",False,True,False,False
+21,Margaret Hawkins DDS,59,Female,"311 Oak Lane, Millbrook, NY 12545",True,True,True,False
+22,Patty Perez,77,Female,"218 Meadow Lane, Millbrook, NY 12545",False,False,False,False
+23,Ethan Adams,32,Female,"458 Route 44, Millbrook, NY 12545",True,False,False,False
+24,Tommy Walter,79,Male,"114 Church Street, Millbrook, NY 12545",False,False,False,False
+25,Matthew Foster,79,Female,"145 Cedar Road, Millbrook, NY 12545",True,True,False,False
+26,Judy Baker,64,Female,"136 Route 82, Millbrook, NY 12545",True,False,False,False
+27,Justin Baker,79,Male,"232 Main Street, Millbrook, NY 12545",False,True,False,False
+28,Stephanie Ross,68,Female,"76 Meadow Lane, Millbrook, NY 12545",True,True,False,False
+29,Zachary Hicks,72,Female,"328 Elm Street, Millbrook, NY 12545",True,False,False,False
+30,Anthony Rodriguez,81,Male,"302 Franklin Avenue, Millbrook, NY 12545",False,True,False,False
+31,Rebecca Henderson,20,Male,"289 Main Street, Millbrook, NY 12545",True,True,True,True
+32,James Ferrell,68,Male,"147 Route 82, Millbrook, NY 12545",False,True,False,False
+33,Tricia Valencia,24,Female,"464 Route 44, Millbrook, NY 12545",True,False,True,False
+34,Nathan Maldonado,38,Female,"53 Chestnut Ridge Road, Millbrook, NY 12545",True,True,True,False
+35,Debra Davidson,56,Female,"69 Elm Street, Millbrook, NY 12545",True,True,False,False
+36,Jeffrey Chavez,35,Male,"90 Route 44, Millbrook, NY 12545",True,False,False,False
+37,Sherri Baker,21,Male,"220 Church Street, Millbrook, NY 12545",False,True,False,False
+38,Cassandra Gaines,77,Female,"498 Chestnut Ridge Road, Millbrook, NY 12545",True,True,False,False
+39,Elizabeth Fowler,31,Female,"454 Route 82, Millbrook, NY 12545",False,False,False,False
+40,Brittany Farmer,26,Male,"73 Main Street, Millbrook, NY 12545",True,True,False,False
+41,Paula Moreno,70,Male,"169 Elm Street, Millbrook, NY 12545",True,True,False,False
+42,Fred Smith,19,Male,"176 Park Avenue, Millbrook, NY 12545",True,True,False,False
+43,Sherry Decker,77,Male,"73 Washington Street, Millbrook, NY 12545",True,True,False,False
+44,Anthony Humphrey,61,Female,"77 Route 82, Millbrook, NY 12545",False,True,False,False
+45,Angelica Tucker,25,Male,"489 Meadow Lane, Millbrook, NY 12545",False,False,False,False
+46,Philip Cannon,64,Female,"324 Church Street, Millbrook, NY 12545",False,False,False,False
+47,John Pierce,52,Female,"381 Maple Avenue, Millbrook, NY 12545",False,False,False,False
+48,Shane Henderson,53,Female,"494 Franklin Avenue, Millbrook, NY 12545",True,False,False,False
+49,Joshua Blair,67,Male,"102 Mill Road, Millbrook, NY 12545",False,True,False,False
+50,Eric Carney,21,Male,"454 Church Street, Millbrook, NY 12545",False,True,False,False
+51,Jessica Holmes,19,Male,"82 Park Avenue, Millbrook, NY 12545",True,True,False,False
+52,Danny Morgan,23,Male,"489 Oak Lane, Millbrook, NY 12545",True,True,False,False
+53,Crystal Robinson,71,Female,"339 Park Avenue, Millbrook, NY 12545",True,True,False,False
+54,Mark Perez,21,Male,"331 Main Street, Millbrook, NY 12545",True,False,False,False
+55,Shannon Jones,71,Male,"344 Route 44, Millbrook, NY 12545",False,False,False,False
+56,Michael Lewis,80,Female,"310 Oak Lane, Millbrook, NY 12545",False,True,False,False
+57,Timothy Duncan,35,Male,"89 Washington Street, Millbrook, NY 12545",True,True,False,False
+58,Richard Aguirre,61,Female,"143 Main Street, Millbrook, NY 12545",True,True,False,False
+59,Brent Jordan,51,Female,"76 Cedar Road, Millbrook, NY 12545",True,False,False,False
+60,John Daniel,79,Female,"199 Route 82, Millbrook, NY 12545",False,True,False,False
+61,Victoria Garcia,31,Female,"405 Mill Road, Millbrook, NY 12545",False,True,False,False
+62,Gerald Hensley,65,Female,"316 Park Avenue, Millbrook, NY 12545",True,True,False,False
+63,Connor West,32,Female,"473 Main Street, Millbrook, NY 12545",True,False,True,False
+64,Donald Wright,79,Female,"305 Chestnut Ridge Road, Millbrook, NY 12545",False,True,False,False
+65,Jessica Callahan,57,Female,"497 Mill Road, Millbrook, NY 12545",True,False,False,False
+66,Amber Kidd,70,Male,"428 Maple Avenue, Millbrook, NY 12545",True,False,False,False
+67,Tracy House,41,Male,"474 Meadow Lane, Millbrook, NY 12545",False,False,False,False
+68,Carol Tucker,43,Male,"355 Pine Street, Millbrook, NY 12545",True,False,False,False
+69,James Brown,77,Male,"110 Route 44, Millbrook, NY 12545",False,False,False,False
+70,William Baker,58,Female,"330 Church Street, Millbrook, NY 12545",True,False,False,False
+71,Jordan Henderson,46,Male,"430 Elm Street, Millbrook, NY 12545",True,True,True,True
+72,Whitney Peters,32,Female,"3 Washington Street, Millbrook, NY 12545",False,True,False,False
+73,Brittney Phillips,62,Male,"282 Pine Street, Millbrook, NY 12545",False,True,False,False
+74,Lauren Daniels,82,Male,"304 Church Street, Millbrook, NY 12545",True,False,False,False
+75,Amy Silva,26,Male,"454 Hill Street, Millbrook, NY 12545",False,True,False,False
+76,Sarah Moore,18,Female,"117 Park Avenue, Millbrook, NY 12545",True,False,False,False
+77,Angela Lopez,25,Male,"154 Elm Street, Millbrook, NY 12545",True,False,False,False
+78,Megan Young,80,Female,"12 Washington Street, Millbrook, NY 12545",False,False,False,False
+79,Steve Sanchez,28,Female,"482 Chestnut Ridge Road, Millbrook, NY 12545",True,True,False,False
+80,Lisa Barnes,25,Male,"293 Route 82, Millbrook, NY 12545",True,False,False,False
+81,Kelly Donovan,52,Male,"300 Franklin Avenue, Millbrook, NY 12545",False,False,False,False
+82,Mike Allen,52,Male,"271 Meadow Lane, Millbrook, NY 12545",False,True,False,False
+83,Michael Evans,50,Female,"432 Oak Lane, Millbrook, NY 12545",True,True,True,True
+84,Paul Jones,22,Male,"326 Route 44, Millbrook, NY 12545",False,False,False,False
+85,Zachary Ferrell,58,Female,"498 Hill Street, Millbrook, NY 12545",False,False,False,False
+86,Daniel Baker,45,Female,"379 Meadow Lane, Millbrook, NY 12545",False,True,False,False
+87,Shirley Suarez,24,Male,"493 Washington Street, Millbrook, NY 12545",False,True,False,False
+88,Christopher Bass,29,Male,"407 Meadow Lane, Millbrook, NY 12545",True,True,False,False
+89,Lisa Archer,51,Female,"336 Route 82, Millbrook, NY 12545",True,False,True,False
+90,Aimee Montoya,50,Female,"117 Hill Street, Millbrook, NY 12545",True,True,True,True
+91,Matthew Mcmillan,65,Female,"399 Elm Street, Millbrook, NY 12545",False,True,True,False
+92,Brian Rodriguez,40,Male,"292 Meadow Lane, Millbrook, NY 12545",False,True,False,False
+93,Denise Jacobs,79,Female,"51 Route 82, Millbrook, NY 12545",False,False,False,False
+94,Christina Walters,54,Male,"324 Washington Street, Millbrook, NY 12545",False,True,False,False
+95,John Whitehead,61,Female,"141 Maple Avenue, Millbrook, NY 12545",False,True,False,False
+96,Anna Henderson,52,Female,"275 Church Street, Millbrook, NY 12545",False,True,False,False
+97,Aaron Wise,82,Male,"334 Park Avenue, Millbrook, NY 12545",False,True,False,False
+98,Deborah Figueroa,64,Female,"452 Chestnut Ridge Road, Millbrook, NY 12545",True,True,False,False
+99,Jessica Smith,20,Male,"373 Franklin Avenue, Millbrook, NY 12545",True,False,False,False
+100,Stephen Mckee,18,Male,"494 Meadow Lane, Millbrook, NY 12545",False,False,False,False
+101,Sandra Aguilar,22,Female,"157 Route 82, Millbrook, NY 12545",False,False,False,False
+102,Cameron Parker,31,Male,"156 Mill Road, Millbrook, NY 12545",False,True,False,False
+103,Rebecca Valencia,44,Male,"136 Chestnut Ridge Road, Millbrook, NY 12545",True,False,False,False
+104,Christine Wright,26,Female,"106 Franklin Avenue, Millbrook, NY 12545",True,False,False,False
+105,Richard Henson,32,Male,"158 Church Street, Millbrook, NY 12545",False,False,False,False
+106,Marc Moore,59,Male,"2 Main Street, Millbrook, NY 12545",False,True,False,False
+107,Sharon Cherry,68,Male,"77 Franklin Avenue, Millbrook, NY 12545",True,True,False,False
+108,Sierra Johnson,80,Female,"90 Elm Street, Millbrook, NY 12545",True,False,True,True
+109,Evelyn Galvan,69,Male,"350 Meadow Lane, Millbrook, NY 12545",True,False,False,False
+110,Sharon Cochran,21,Female,"263 Route 82, Millbrook, NY 12545",True,True,False,False
+111,Richard Rodriguez,40,Female,"108 Cedar Road, Millbrook, NY 12545",False,True,False,False
+112,Shannon Walker,32,Male,"39 Park Avenue, Millbrook, NY 12545",True,False,True,True
+113,Julia Torres,60,Male,"159 Oak Lane, Millbrook, NY 12545",True,True,False,False
+114,Crystal Johnson,46,Male,"447 Pine Street, Millbrook, NY 12545",False,False,False,False
+115,Garrett Lin,53,Female,"241 Cedar Road, Millbrook, NY 12545",True,True,False,False
+116,Diana May,30,Male,"445 Cedar Road, Millbrook, NY 12545",True,False,False,False
+117,William Herrera,49,Male,"440 Franklin Avenue, Millbrook, NY 12545",True,False,True,True
+118,Ashley Waller,76,Male,"84 Franklin Avenue, Millbrook, NY 12545",False,True,False,False
+119,Victor Baker,45,Male,"374 Oak Lane, Millbrook, NY 12545",True,False,False,False
+120,Jeffrey Chandler,83,Male,"310 Main Street, Millbrook, NY 12545",False,False,False,False
+121,Larry Dixon,59,Female,"172 Pine Street, Millbrook, NY 12545",False,False,False,False
+122,Kenneth Scott,62,Female,"173 Cedar Road, Millbrook, NY 12545",True,True,False,False
+123,April Frost,79,Male,"47 Meadow Lane, Millbrook, NY 12545",True,True,False,False
+124,Michelle Harmon,74,Male,"141 Oak Lane, Millbrook, NY 12545",True,True,False,False
+125,Helen Jones,23,Male,"406 Maple Avenue, Millbrook, NY 12545",True,False,False,False
+126,Erin Edwards,45,Male,"277 Maple Avenue, Millbrook, NY 12545",False,True,False,False
+127,Michelle Evans,45,Female,"220 Elm Street, Millbrook, NY 12545",True,False,False,False
+128,Jason Powell,61,Male,"26 Elm Street, Millbrook, NY 12545",True,False,False,False
+129,Cameron Fisher,47,Female,"271 Cedar Road, Millbrook, NY 12545",True,True,False,False
+130,Megan Orr,79,Female,"472 Cedar Road, Millbrook, NY 12545",False,True,False,False
+131,Elizabeth Kelley,79,Male,"121 Park Avenue, Millbrook, NY 12545",True,False,True,True
+132,Dustin Jordan,18,Female,"170 Pine Street, Millbrook, NY 12545",True,False,True,False
+133,Mary Marshall,44,Female,"152 Chestnut Ridge Road, Millbrook, NY 12545",False,True,False,False
+134,Daniel Kennedy,79,Female,"49 Cedar Road, Millbrook, NY 12545",False,True,False,False
+135,Rebecca Jackson,20,Female,"347 Washington Street, Millbrook, NY 12545",True,True,False,False
+136,Jose Schultz,44,Male,"68 Church Street, Millbrook, NY 12545",True,False,False,False
+137,Robert Potter,26,Male,"152 Mill Road, Millbrook, NY 12545",True,False,True,False
+138,Courtney Gonzalez,79,Female,"100 Hill Street, Millbrook, NY 12545",True,False,False,False
+139,David Alvarez,54,Male,"167 Cedar Road, Millbrook, NY 12545",True,False,False,False
+140,Angel Perry,68,Male,"345 Church Street, Millbrook, NY 12545",False,False,False,False
+141,Cheyenne Horton,61,Male,"403 Franklin Avenue, Millbrook, NY 12545",False,True,False,False
+142,David Douglas Jr.,41,Male,"458 Main Street, Millbrook, NY 12545",True,True,False,False
+143,Patricia Rodriguez,76,Male,"439 Church Street, Millbrook, NY 12545",True,False,False,False
+144,Christopher Rubio,49,Female,"69 Route 82, Millbrook, NY 12545",False,False,False,False
+145,Amber Wright,69,Male,"49 Mill Road, Millbrook, NY 12545",True,True,False,False
+146,Joyce Solis,79,Male,"108 Church Street, Millbrook, NY 12545",True,True,True,False
+147,Victoria Larson,75,Male,"161 Oak Lane, Millbrook, NY 12545",True,True,False,False
+148,Stephanie Salazar,69,Male,"149 Main Street, Millbrook, NY 12545",True,True,False,False
+149,Kathy Rivas,29,Female,"150 Chestnut Ridge Road, Millbrook, NY 12545",True,False,False,False
+150,Stephanie Manning,56,Female,"293 Route 82, Millbrook, NY 12545",False,True,False,False
+151,David Wright,19,Female,"419 Hill Street, Millbrook, NY 12545",True,False,False,False
+152,Pamela Boyd,20,Female,"455 Chestnut Ridge Road, Millbrook, NY 12545",True,True,False,False
+153,Denise Jones,73,Male,"11 Cedar Road, Millbrook, NY 12545",True,True,False,False
+154,Devon Flores,76,Female,"457 Route 44, Millbrook, NY 12545",False,True,False,False
+155,Brenda Hall,19,Male,"77 Park Avenue, Millbrook, NY 12545",False,False,False,False
+156,Michelle Brown,19,Male,"441 Route 44, Millbrook, NY 12545",False,False,False,False
+157,Joshua Perry,71,Male,"409 Church Street, Millbrook, NY 12545",False,True,False,False
+158,Jason Stein,18,Male,"320 Mill Road, Millbrook, NY 12545",True,False,False,False
+159,Melissa Gates,36,Male,"263 Washington Street, Millbrook, NY 12545",False,False,False,False
+160,Jamie Smith,19,Female,"146 Mill Road, Millbrook, NY 12545",True,True,False,False
+161,Paul Castaneda,70,Female,"42 Maple Avenue, Millbrook, NY 12545",True,True,False,False
+162,Jennifer Adkins,61,Female,"125 Oak Lane, Millbrook, NY 12545",False,False,False,False
+163,Lindsey Walker,49,Female,"425 Main Street, Millbrook, NY 12545",False,False,False,False
+164,Jeffrey Johnson,49,Male,"459 Oak Lane, Millbrook, NY 12545",False,False,False,False
+165,Michael Powell,85,Female,"280 Hill Street, Millbrook, NY 12545",False,True,False,False
+166,John Anderson,72,Male,"302 Mill Road, Millbrook, NY 12545",False,True,False,False
+167,Alyssa Long,73,Female,"68 Cedar Road, Millbrook, NY 12545",True,False,False,False
+168,Alyssa Day,34,Male,"102 Cedar Road, Millbrook, NY 12545",False,True,False,False
+169,Joel Williams,55,Male,"288 Oak Lane, Millbrook, NY 12545",False,True,False,False
+170,Daniel Murphy,41,Female,"109 Route 44, Millbrook, NY 12545",False,False,False,False
+171,Jamie Walton,28,Male,"36 Pine Street, Millbrook, NY 12545",True,False,False,False
+172,Darlene Miller,33,Male,"229 Main Street, Millbrook, NY 12545",False,True,False,False
+173,Joshua Cooke,76,Female,"164 Mill Road, Millbrook, NY 12545",True,True,False,False
+174,Matthew Harrington,20,Male,"73 Pine Street, Millbrook, NY 12545",False,False,False,False
+175,Nicole Herring,37,Female,"353 Meadow Lane, Millbrook, NY 12545",False,True,False,False
+176,Alex Hernandez,76,Female,"70 Elm Street, Millbrook, NY 12545",True,True,False,False
+177,Michael Elliott,53,Female,"487 Franklin Avenue, Millbrook, NY 12545",False,False,False,False
+178,Michael Wang,36,Male,"269 Main Street, Millbrook, NY 12545",True,False,False,False
+179,Lawrence Adkins,84,Male,"316 Church Street, Millbrook, NY 12545",True,True,False,False
+180,Robert Oconnell,36,Male,"444 Washington Street, Millbrook, NY 12545",True,True,False,False
+181,Alexander Collins,37,Female,"428 Meadow Lane, Millbrook, NY 12545",False,True,False,False
+182,Tina Sanders,69,Male,"160 Washington Street, Millbrook, NY 12545",False,False,False,False
+183,Angela Vaughn,50,Female,"264 Maple Avenue, Millbrook, NY 12545",False,True,False,False
+184,Ashley Barton,57,Female,"200 Church Street, Millbrook, NY 12545",True,True,False,False
+185,Lindsay Martinez,56,Male,"67 Maple Avenue, Millbrook, NY 12545",False,False,False,False
+186,Dr. Hannah Patterson,18,Female,"300 Park Avenue, Millbrook, NY 12545",True,False,False,False
+187,Jonathan Peterson,28,Male,"58 Mill Road, Millbrook, NY 12545",False,True,False,False
+188,Samantha Garcia,74,Male,"342 Maple Avenue, Millbrook, NY 12545",True,False,False,False
+189,Madison Poole,67,Male,"130 Oak Lane, Millbrook, NY 12545",True,False,False,False
+190,Jessica Gross,40,Male,"172 Church Street, Millbrook, NY 12545",True,True,True,True
+191,Debra Morton,48,Male,"102 Main Street, Millbrook, NY 12545",False,False,False,False
+192,Karen Graham,59,Female,"291 Church Street, Millbrook, NY 12545",True,False,False,False
+193,Debra Christian,24,Female,"471 Route 44, Millbrook, NY 12545",True,True,False,False
+194,Angelica Keith,33,Female,"116 Pine Street, Millbrook, NY 12545",True,False,False,False
+195,John Bishop,77,Male,"150 Hill Street, Millbrook, NY 12545",True,True,True,False
+196,Allen Rosales,19,Male,"442 Franklin Avenue, Millbrook, NY 12545",True,True,False,False
+197,Daniel Salinas,18,Male,"453 Park Avenue, Millbrook, NY 12545",True,False,False,False
+198,Spencer Haynes,65,Female,"477 Route 82, Millbrook, NY 12545",False,False,False,False
+199,Adam Vaughan,29,Male,"303 Elm Street, Millbrook, NY 12545",False,False,False,False
+200,Nathan Freeman,54,Female,"311 Chestnut Ridge Road, Millbrook, NY 12545",True,True,False,False
+201,Melissa Brewer,49,Female,"106 Route 44, Millbrook, NY 12545",False,False,False,False
+202,Ricky Davis II,26,Male,"158 Elm Street, Millbrook, NY 12545",False,True,False,False
+203,Elizabeth Perkins,36,Male,"55 Chestnut Ridge Road, Millbrook, NY 12545",True,False,False,False
+204,Joseph Coleman,65,Female,"12 Main Street, Millbrook, NY 12545",True,False,True,False
+205,Erin Warner,20,Male,"400 Hill Street, Millbrook, NY 12545",True,False,False,False
+206,David Martinez,37,Female,"136 Franklin Avenue, Millbrook, NY 12545",False,True,False,False
+207,Bryan Herrera,41,Male,"3 Chestnut Ridge Road, Millbrook, NY 12545",True,False,False,False
+208,Cathy Robinson,71,Male,"30 Park Avenue, Millbrook, NY 12545",False,False,False,False
+209,Dr. William Warren,50,Female,"279 Hill Street, Millbrook, NY 12545",True,True,False,False
+210,Brian Lee,41,Male,"115 Pine Street, Millbrook, NY 12545",False,True,False,False
+211,Christopher Smith,53,Female,"118 Washington Street, Millbrook, NY 12545",True,False,False,False
+212,Denise Mccann,55,Male,"468 Pine Street, Millbrook, NY 12545",True,False,False,False
+213,Melissa Martinez,42,Female,"248 Hill Street, Millbrook, NY 12545",False,False,False,False
+214,Katherine Salas,35,Female,"321 Elm Street, Millbrook, NY 12545",False,True,False,False
+215,Julie Alexander,83,Male,"286 Washington Street, Millbrook, NY 12545",False,True,False,False
+216,Anthony Everett,71,Female,"84 Maple Avenue, Millbrook, NY 12545",False,True,False,False
+217,Rodney Morales,52,Male,"406 Church Street, Millbrook, NY 12545",False,True,False,False
+218,Mark Brown,78,Male,"456 Oak Lane, Millbrook, NY 12545",False,False,False,False
+219,Justin Torres,58,Male,"288 Main Street, Millbrook, NY 12545",True,True,False,False
+220,Bailey Duran DDS,50,Female,"272 Hill Street, Millbrook, NY 12545",False,True,False,False
+221,Courtney Mills,85,Female,"38 Franklin Avenue, Millbrook, NY 12545",True,True,False,False
+222,Jeremy Dalton,50,Male,"226 Park Avenue, Millbrook, NY 12545",True,False,False,False
+223,Elizabeth Oliver DDS,31,Male,"142 Franklin Avenue, Millbrook, NY 12545",False,False,False,False
+224,Theresa Clark,38,Female,"481 Oak Lane, Millbrook, NY 12545",True,True,False,False
+225,Matthew Moore,65,Male,"114 Park Avenue, Millbrook, NY 12545",False,True,False,False
+226,Benjamin Smith,37,Male,"66 Elm Street, Millbrook, NY 12545",False,False,False,False
+227,Kirk Carter,25,Female,"341 Church Street, Millbrook, NY 12545",True,False,False,False
+228,Michael Warner,24,Male,"475 Elm Street, Millbrook, NY 12545",True,False,False,False
+229,Michael Bradshaw,84,Female,"457 Main Street, Millbrook, NY 12545",False,False,False,False
+230,Lori Guerrero,34,Male,"331 Mill Road, Millbrook, NY 12545",False,False,False,False
+231,Jessica Stephens,50,Female,"180 Route 44, Millbrook, NY 12545",True,False,False,False
+232,Susan Serrano,65,Male,"407 Cedar Road, Millbrook, NY 12545",True,False,False,False
+233,Christopher Parker,76,Male,"196 Church Street, Millbrook, NY 12545",True,False,False,False
+234,Laura Roberts,39,Female,"311 Maple Avenue, Millbrook, NY 12545",True,True,False,False
+235,Michael Lyons,47,Male,"419 Maple Avenue, Millbrook, NY 12545",False,True,False,False
+236,Kathryn Snyder,55,Female,"427 Route 82, Millbrook, NY 12545",False,True,False,False
+237,Andrew Reynolds,68,Male,"342 Hill Street, Millbrook, NY 12545",False,True,False,False
+238,David Davis,71,Female,"101 Franklin Avenue, Millbrook, NY 12545",False,True,False,False
+239,Sara Johnston,25,Female,"490 Hill Street, Millbrook, NY 12545",True,True,False,False
+240,Yvonne Chambers,44,Female,"239 Main Street, Millbrook, NY 12545",True,False,True,True
+241,Andrew Avila,44,Female,"42 Maple Avenue, Millbrook, NY 12545",False,False,False,False
+242,Matthew Moon,38,Male,"82 Park Avenue, Millbrook, NY 12545",False,True,False,False
+243,Kevin Walters,47,Male,"291 Route 44, Millbrook, NY 12545",False,True,False,False
+244,Brandon Bailey MD,45,Female,"216 Cedar Road, Millbrook, NY 12545",False,False,False,False
+245,Shannon Rivera,81,Female,"158 Route 44, Millbrook, NY 12545",False,False,False,False
+246,Donna Landry,78,Female,"134 Mill Road, Millbrook, NY 12545",False,False,False,False
+247,Krista Gibson,65,Male,"336 Oak Lane, Millbrook, NY 12545",False,True,False,False
+248,Frank Cordova,36,Male,"436 Route 44, Millbrook, NY 12545",False,False,False,False
+249,Jose Travis,21,Male,"73 Route 82, Millbrook, NY 12545",False,True,False,False
+250,Kimberly Gutierrez,52,Male,"405 Mill Road, Millbrook, NY 12545",True,True,False,False
+251,Isaiah Avila,81,Female,"66 Meadow Lane, Millbrook, NY 12545",False,False,False,False
+252,Olivia Harris,66,Female,"130 Mill Road, Millbrook, NY 12545",True,False,False,False
+253,Tanya Kim,34,Female,"466 Route 44, Millbrook, NY 12545",True,True,True,True
+254,Barbara Dudley,61,Male,"276 Church Street, Millbrook, NY 12545",False,False,False,False
+255,Cynthia Moore,47,Male,"256 Cedar Road, Millbrook, NY 12545",False,False,False,False
+256,Kristen Davis,63,Male,"25 Church Street, Millbrook, NY 12545",True,True,False,False
+257,Susan Murray MD,23,Female,"281 Park Avenue, Millbrook, NY 12545",True,False,False,False
+258,Kathleen Moran,54,Female,"310 Main Street, Millbrook, NY 12545",False,True,False,False
+259,Denise Davenport,41,Male,"164 Route 82, Millbrook, NY 12545",True,True,True,False
+260,Mrs. Kristen Reyes,63,Female,"270 Main Street, Millbrook, NY 12545",False,False,False,False
+261,Katie Suarez,70,Male,"110 Chestnut Ridge Road, Millbrook, NY 12545",False,True,False,False
+262,Desiree Tyler,77,Male,"310 Route 44, Millbrook, NY 12545",False,True,False,False
+263,Timothy Romero,80,Female,"381 Franklin Avenue, Millbrook, NY 12545",True,False,True,False
+264,Diane Evans,49,Male,"387 Mill Road, Millbrook, NY 12545",True,False,False,False
+265,Yvonne Burns,50,Female,"425 Maple Avenue, Millbrook, NY 12545",False,False,False,False
+266,Joshua Reed,84,Male,"25 Park Avenue, Millbrook, NY 12545",True,True,False,False
+267,Kimberly Gibson,35,Female,"117 Church Street, Millbrook, NY 12545",True,True,False,False
+268,Colin Terry,42,Female,"392 Washington Street, Millbrook, NY 12545",True,False,False,False
+269,Cynthia Rowe,71,Female,"482 Franklin Avenue, Millbrook, NY 12545",True,True,False,False
+270,Patrick Thornton,75,Male,"25 Route 82, Millbrook, NY 12545",True,False,False,False
+271,Jasmin Alvarado,84,Male,"68 Park Avenue, Millbrook, NY 12545",True,False,False,False
+272,Veronica Simpson,63,Female,"444 Hill Street, Millbrook, NY 12545",True,True,False,False
+273,Jonathan Lawrence,41,Female,"288 Chestnut Ridge Road, Millbrook, NY 12545",False,False,False,False
+274,Shelly Alexander,49,Male,"96 Hill Street, Millbrook, NY 12545",True,True,False,False
+275,Joyce Bowen,64,Male,"141 Route 82, Millbrook, NY 12545",True,True,False,False
+276,Matthew Moore,40,Male,"334 Franklin Avenue, Millbrook, NY 12545",True,False,False,False
+277,Wayne Morgan,83,Female,"146 Park Avenue, Millbrook, NY 12545",True,True,False,False
+278,Marie Christian,44,Male,"316 Route 82, Millbrook, NY 12545",True,False,True,False
+279,Shannon James,19,Male,"390 Chestnut Ridge Road, Millbrook, NY 12545",True,True,False,False
+280,Nathan Malone,34,Female,"349 Meadow Lane, Millbrook, NY 12545",True,True,False,False
+281,Amanda Jones,50,Male,"254 Church Street, Millbrook, NY 12545",True,True,True,True
+282,Tammie Bright,26,Male,"60 Oak Lane, Millbrook, NY 12545",False,False,False,False
+283,Jessica Garcia,60,Male,"467 Route 82, Millbrook, NY 12545",True,True,False,False
+284,Shelia Wallace,65,Female,"499 Washington Street, Millbrook, NY 12545",True,False,False,False
+285,Stephanie Williams,56,Female,"467 Church Street, Millbrook, NY 12545",True,True,False,False
+286,Elaine Brooks,59,Female,"266 Elm Street, Millbrook, NY 12545",True,True,False,False
+287,Joseph Knight,43,Female,"130 Route 44, Millbrook, NY 12545",False,False,False,False
+288,Carolyn Miller,67,Female,"267 Church Street, Millbrook, NY 12545",False,False,False,False
+289,Lisa Allen,42,Female,"253 Route 82, Millbrook, NY 12545",False,False,False,False
+290,Briana Murray,41,Female,"56 Route 82, Millbrook, NY 12545",False,False,False,False
+291,David Smith,30,Male,"457 Oak Lane, Millbrook, NY 12545",False,False,False,False
+292,Stephanie Byrd,77,Male,"83 Elm Street, Millbrook, NY 12545",False,True,False,False
+293,Jeremy Reed,24,Female,"99 Washington Street, Millbrook, NY 12545",False,True,False,False
+294,Margaret Coleman,74,Male,"329 Hill Street, Millbrook, NY 12545",False,False,False,False
+295,Ryan Gonzalez,53,Male,"190 Route 44, Millbrook, NY 12545",False,True,False,False
+296,John Young,62,Female,"371 Oak Lane, Millbrook, NY 12545",False,True,True,False
+297,Laura Haney,37,Male,"80 Chestnut Ridge Road, Millbrook, NY 12545",False,True,False,False
+298,William Barrett,82,Male,"252 Main Street, Millbrook, NY 12545",False,False,False,False
+299,Keith Jennings,25,Male,"260 Franklin Avenue, Millbrook, NY 12545",False,True,False,False
+300,Amber Obrien,33,Male,"103 Pine Street, Millbrook, NY 12545",False,True,False,False
+301,Tanner Mitchell DDS,31,Male,"273 Washington Street, Millbrook, NY 12545",False,True,False,False
+302,Heather Fields,32,Female,"359 Hill Street, Millbrook, NY 12545",False,False,False,False
+303,Megan Le,83,Female,"308 Park Avenue, Millbrook, NY 12545",True,True,True,True
+304,Sara Fuller,49,Female,"308 Franklin Avenue, Millbrook, NY 12545",False,True,False,False
+305,Maria Parker,80,Male,"124 Maple Avenue, Millbrook, NY 12545",True,False,False,False
+306,Kevin Oconnor,68,Female,"231 Church Street, Millbrook, NY 12545",False,False,False,False
+307,Edward Burgess,42,Male,"63 Washington Street, Millbrook, NY 12545",False,True,False,False
+308,Carlos Ryan,75,Male,"116 Route 82, Millbrook, NY 12545",True,True,False,False
+309,Kiara Mcintyre,80,Male,"62 Chestnut Ridge Road, Millbrook, NY 12545",False,False,False,False
+310,Dawn Summers,79,Male,"483 Oak Lane, Millbrook, NY 12545",True,False,False,False
+311,Dr. Paul Morgan,39,Female,"155 Hill Street, Millbrook, NY 12545",True,False,False,False
+312,Victor Taylor,75,Female,"470 Route 44, Millbrook, NY 12545",True,False,False,False
+313,Shannon Ramsey,75,Male,"455 Washington Street, Millbrook, NY 12545",False,False,False,False
+314,Tracy Ballard,66,Female,"86 Washington Street, Millbrook, NY 12545",False,False,False,False
+315,Richard Smith,69,Male,"183 Church Street, Millbrook, NY 12545",False,False,False,False
+316,Jordan Chambers,59,Female,"62 Meadow Lane, Millbrook, NY 12545",True,True,False,False
+317,Lauren Carson,32,Female,"405 Maple Avenue, Millbrook, NY 12545",True,False,False,False
+318,Ashley Hall,71,Male,"230 Route 82, Millbrook, NY 12545",False,False,False,False
+319,Stephen Hoffman,77,Female,"149 Cedar Road, Millbrook, NY 12545",False,True,False,False
+320,Connie Brown,25,Male,"471 Cedar Road, Millbrook, NY 12545",False,False,False,False
+321,Susan Turner,70,Female,"376 Oak Lane, Millbrook, NY 12545",False,False,False,False
+322,Charles Shah,77,Male,"389 Main Street, Millbrook, NY 12545",False,True,False,False
+323,Johnathan Davis,22,Male,"13 Washington Street, Millbrook, NY 12545",True,False,False,False
+324,Brandy Chavez,85,Female,"474 Church Street, Millbrook, NY 12545",True,True,True,True
+325,Natalie Bautista,23,Female,"493 Washington Street, Millbrook, NY 12545",True,True,False,False
+326,Patrick Moore,64,Male,"181 Church Street, Millbrook, NY 12545",False,True,False,False
+327,Brett Burns,72,Female,"485 Park Avenue, Millbrook, NY 12545",True,True,True,True
+328,Trevor Johnson,57,Female,"160 Franklin Avenue, Millbrook, NY 12545",True,False,False,False
+329,Jeremy Sampson,69,Male,"465 Mill Road, Millbrook, NY 12545",True,True,False,False
+330,Ariana Jennings,33,Male,"497 Hill Street, Millbrook, NY 12545",True,True,False,False
+331,Vanessa Howard,30,Female,"395 Route 82, Millbrook, NY 12545",True,False,False,False
+332,Colton Martinez,47,Male,"405 Franklin Avenue, Millbrook, NY 12545",False,True,False,False
+333,Jordan Bates,36,Male,"256 Oak Lane, Millbrook, NY 12545",True,True,True,True
+334,Linda Smith,34,Male,"117 Cedar Road, Millbrook, NY 12545",False,True,False,False
+335,Dana Martinez,80,Female,"196 Church Street, Millbrook, NY 12545",False,True,True,True
+336,Andrea Hubbard,36,Female,"52 Chestnut Ridge Road, Millbrook, NY 12545",False,False,False,False
+337,Daniel Kane,75,Male,"252 Church Street, Millbrook, NY 12545",False,True,False,False
+338,Charles Lester,72,Female,"232 Mill Road, Millbrook, NY 12545",False,False,False,False
+339,Scott Thomas,79,Male,"233 Park Avenue, Millbrook, NY 12545",True,False,False,False
+340,David Thompson,40,Female,"436 Park Avenue, Millbrook, NY 12545",True,True,False,False
+341,Allison Smith,26,Male,"422 Cedar Road, Millbrook, NY 12545",False,True,False,False
+342,Cynthia Morris,29,Male,"21 Cedar Road, Millbrook, NY 12545",False,True,False,False
+343,Anthony Harmon,18,Female,"397 Main Street, Millbrook, NY 12545",False,True,False,False
+344,Nichole Alvarez,75,Male,"105 Chestnut Ridge Road, Millbrook, NY 12545",True,False,True,True
+345,Kayla Rodriguez,18,Female,"17 Pine Street, Millbrook, NY 12545",False,False,False,False
+346,Theresa Williams,51,Female,"393 Elm Street, Millbrook, NY 12545",True,False,False,False
+347,Sharon Boyd,65,Male,"129 Church Street, Millbrook, NY 12545",False,True,False,False
+348,Victor Brown,18,Male,"60 Chestnut Ridge Road, Millbrook, NY 12545",True,False,True,False
+349,James Parks,33,Female,"29 Main Street, Millbrook, NY 12545",False,True,False,False
+350,Theodore Jones Jr.,78,Male,"10 Church Street, Millbrook, NY 12545",True,True,True,False
+351,Ana Hill,81,Male,"314 Chestnut Ridge Road, Millbrook, NY 12545",False,True,False,False
+352,Kimberly Nguyen,80,Male,"444 Pine Street, Millbrook, NY 12545",True,True,False,False
+353,Kerry Chavez DDS,39,Male,"277 Hill Street, Millbrook, NY 12545",True,True,False,False
+354,Michael Farrell,84,Male,"203 Oak Lane, Millbrook, NY 12545",True,False,False,False
+355,Patricia Le,43,Female,"290 Pine Street, Millbrook, NY 12545",True,False,False,False
+356,Jesse Perez,33,Female,"443 Maple Avenue, Millbrook, NY 12545",True,True,False,False
+357,Jesse Perry,68,Male,"200 Main Street, Millbrook, NY 12545",True,False,False,False
+358,Jeffery Ortega,74,Male,"79 Main Street, Millbrook, NY 12545",True,True,False,False
+359,Christian Leblanc,46,Male,"444 Oak Lane, Millbrook, NY 12545",False,True,False,False
+360,Ronald Davis,64,Female,"344 Park Avenue, Millbrook, NY 12545",False,True,False,False
+361,Parker Cain,79,Male,"467 Washington Street, Millbrook, NY 12545",False,False,False,False
+362,Laurie Hoffman,33,Female,"416 Hill Street, Millbrook, NY 12545",False,True,False,False
+363,Bryan Gomez,65,Female,"449 Oak Lane, Millbrook, NY 12545",False,True,False,False
+364,Nicole Parrish,56,Female,"101 Pine Street, Millbrook, NY 12545",True,False,False,False
+365,Tracy Burke,50,Male,"333 Pine Street, Millbrook, NY 12545",True,False,False,False
+366,Kenneth Lewis,40,Female,"87 Meadow Lane, Millbrook, NY 12545",True,False,True,True
+367,Courtney Rodriguez,27,Male,"385 Park Avenue, Millbrook, NY 12545",True,True,False,False
+368,Holly Farmer,51,Female,"435 Pine Street, Millbrook, NY 12545",True,True,False,False
+369,Renee Bruce,69,Male,"483 Pine Street, Millbrook, NY 12545",False,False,False,False
+370,Sabrina Austin,27,Female,"17 Washington Street, Millbrook, NY 12545",False,True,False,False
+371,Allison Hickman,36,Male,"148 Washington Street, Millbrook, NY 12545",False,False,False,False
+372,Debra White,75,Female,"232 Cedar Road, Millbrook, NY 12545",False,False,False,False
+373,Ellen Morgan,18,Male,"415 Route 44, Millbrook, NY 12545",True,True,False,False
+374,Sergio Knight,21,Male,"228 Meadow Lane, Millbrook, NY 12545",True,True,False,False
+375,Charles Schultz,33,Male,"436 Route 82, Millbrook, NY 12545",True,False,False,False
+376,Paul Lewis,41,Male,"211 Oak Lane, Millbrook, NY 12545",False,False,False,False
+377,Glen Wood,19,Female,"499 Hill Street, Millbrook, NY 12545",True,False,False,False
+378,Paula Bradley,49,Female,"51 Meadow Lane, Millbrook, NY 12545",False,False,False,False
+379,Anthony Moore,41,Male,"442 Washington Street, Millbrook, NY 12545",True,True,False,False
+380,Megan Nelson,29,Female,"261 Route 44, Millbrook, NY 12545",True,False,True,False
+381,Karla Ramos,67,Male,"352 Pine Street, Millbrook, NY 12545",False,False,False,False
+382,Paul Wilson,52,Male,"320 Cedar Road, Millbrook, NY 12545",True,False,False,False
+383,Douglas Gregory,50,Female,"38 Route 82, Millbrook, NY 12545",True,True,True,True
+384,Mr. Andrew Foster,50,Male,"480 Chestnut Ridge Road, Millbrook, NY 12545",False,True,False,False
+385,Aimee Turner,78,Male,"220 Main Street, Millbrook, NY 12545",True,False,False,False
+386,Chad Scott,68,Female,"223 Pine Street, Millbrook, NY 12545",False,True,False,False
+387,Adam Burgess,60,Male,"256 Pine Street, Millbrook, NY 12545",True,True,False,False
+388,James Padilla,29,Male,"409 Elm Street, Millbrook, NY 12545",True,True,False,False
+389,Sandra Drake,84,Male,"450 Route 82, Millbrook, NY 12545",True,False,False,False
+390,Scott Williams,82,Male,"434 Mill Road, Millbrook, NY 12545",True,False,False,False
+391,Thomas Atkins,50,Female,"49 Franklin Avenue, Millbrook, NY 12545",True,True,True,True
+392,Laura Mckinney,57,Female,"382 Franklin Avenue, Millbrook, NY 12545",True,False,True,False
+393,Brian Smith,60,Female,"78 Elm Street, Millbrook, NY 12545",True,False,False,False
+394,Robert Montgomery,61,Male,"169 Elm Street, Millbrook, NY 12545",True,True,False,False
+395,Tamara Davis,46,Male,"378 Oak Lane, Millbrook, NY 12545",False,True,False,False
+396,Dana Chapman,30,Female,"190 Route 82, Millbrook, NY 12545",False,False,False,False
+397,Jennifer Collins,29,Male,"370 Cedar Road, Millbrook, NY 12545",True,True,False,False
+398,Gary Jackson,63,Male,"149 Franklin Avenue, Millbrook, NY 12545",True,False,True,True
+399,Ashley Hicks,19,Male,"140 Meadow Lane, Millbrook, NY 12545",False,False,False,False
+400,Hannah Luna,52,Male,"488 Church Street, Millbrook, NY 12545",True,True,True,True
+401,Robin Young,25,Female,"374 Park Avenue, Millbrook, NY 12545",True,False,False,False
+402,Craig Morrison,43,Female,"181 Chestnut Ridge Road, Millbrook, NY 12545",False,False,False,False
+403,Mary Thompson,51,Female,"351 Chestnut Ridge Road, Millbrook, NY 12545",True,True,False,False
+404,Kathleen Webster,24,Male,"288 Chestnut Ridge Road, Millbrook, NY 12545",True,True,False,False
+405,Joann Glass,85,Female,"380 Church Street, Millbrook, NY 12545",False,True,False,False
+406,Madison Weber,75,Female,"11 Cedar Road, Millbrook, NY 12545",True,False,False,False
+407,Lori Hernandez,46,Male,"271 Main Street, Millbrook, NY 12545",True,True,False,False
+408,Jeremy Turner,53,Male,"424 Church Street, Millbrook, NY 12545",False,True,False,False
+409,Anthony Romero,38,Female,"183 Elm Street, Millbrook, NY 12545",True,True,False,False
+410,Jesse Brown,53,Female,"153 Pine Street, Millbrook, NY 12545",False,True,False,False
+411,Angela Lin,27,Female,"315 Route 44, Millbrook, NY 12545",True,False,False,False
+412,Lisa Hunter,41,Female,"124 Cedar Road, Millbrook, NY 12545",True,False,False,False
+413,Julian Conner,81,Male,"473 Church Street, Millbrook, NY 12545",False,True,False,False
+414,Joanna Pacheco,66,Female,"278 Franklin Avenue, Millbrook, NY 12545",False,False,False,False
+415,Erica Alvarez,53,Female,"414 Franklin Avenue, Millbrook, NY 12545",True,True,True,True
+416,Antonio Garcia,41,Male,"213 Hill Street, Millbrook, NY 12545",False,True,False,False
+417,Gwendolyn Klein,40,Female,"288 Mill Road, Millbrook, NY 12545",False,False,False,False
+418,Carrie Wright,79,Male,"174 Main Street, Millbrook, NY 12545",True,False,False,False
+419,Jeffrey Mills,54,Male,"376 Washington Street, Millbrook, NY 12545",True,True,False,False
+420,Jake Campbell,29,Male,"483 Cedar Road, Millbrook, NY 12545",True,True,False,False
+421,George Harper,72,Female,"32 Route 44, Millbrook, NY 12545",False,False,False,False
+422,Maria Jones,30,Female,"119 Oak Lane, Millbrook, NY 12545",False,True,False,False
+423,Michael Mitchell,40,Male,"497 Hill Street, Millbrook, NY 12545",False,False,False,False
+424,Mary Escobar,47,Female,"233 Route 82, Millbrook, NY 12545",False,True,False,False
+425,Felicia Aguilar,34,Female,"18 Washington Street, Millbrook, NY 12545",True,True,False,False
+426,Gregory Ponce,79,Male,"397 Route 44, Millbrook, NY 12545",False,False,False,False
+427,Jenna Larson,30,Male,"149 Route 44, Millbrook, NY 12545",True,False,False,False
+428,Emily Bennett,76,Female,"392 Route 44, Millbrook, NY 12545",False,False,False,False
+429,Robin Santiago,36,Male,"360 Route 44, Millbrook, NY 12545",True,False,False,False
+430,Nancy Jennings,66,Female,"135 Oak Lane, Millbrook, NY 12545",True,False,False,False
+431,Maria Henderson,29,Female,"236 Chestnut Ridge Road, Millbrook, NY 12545",True,False,False,False
+432,Jack White,78,Female,"203 Chestnut Ridge Road, Millbrook, NY 12545",False,False,False,False
+433,Travis Tucker,36,Female,"86 Maple Avenue, Millbrook, NY 12545",True,True,False,False
+434,Chad Jones,26,Male,"235 Elm Street, Millbrook, NY 12545",True,True,True,True
+435,Ashley Wise,45,Male,"22 Hill Street, Millbrook, NY 12545",False,True,False,False
+436,Sophia Johnson,69,Male,"285 Park Avenue, Millbrook, NY 12545",True,False,True,False
+437,Ralph Anderson,33,Male,"466 Church Street, Millbrook, NY 12545",False,False,False,False
+438,Christopher Guerra,29,Female,"29 Washington Street, Millbrook, NY 12545",False,False,False,False
+439,Rhonda Martin,42,Female,"463 Franklin Avenue, Millbrook, NY 12545",True,True,False,False
+440,Jason Rhodes,69,Male,"283 Church Street, Millbrook, NY 12545",True,False,True,True
+441,Jeremy Mitchell,70,Female,"95 Route 82, Millbrook, NY 12545",False,False,False,False
+442,Joann Ferguson,40,Female,"499 Oak Lane, Millbrook, NY 12545",True,True,False,False
+443,Robert Harrison,33,Female,"88 Hill Street, Millbrook, NY 12545",False,False,False,False
+444,Holly Valentine,74,Male,"461 Maple Avenue, Millbrook, NY 12545",False,True,False,False
+445,Mrs. Diane Reyes,56,Male,"171 Washington Street, Millbrook, NY 12545",False,True,False,False
+446,Tracy Montoya,70,Male,"189 Main Street, Millbrook, NY 12545",True,False,True,True
+447,Brenda Wright,59,Female,"184 Mill Road, Millbrook, NY 12545",False,False,False,False
+448,Shelly Spencer,75,Male,"191 Maple Avenue, Millbrook, NY 12545",True,False,False,False
+449,Ryan Rosales,56,Male,"19 Oak Lane, Millbrook, NY 12545",True,True,False,False
+450,Phillip Nelson,31,Male,"413 Route 44, Millbrook, NY 12545",True,True,False,False
+451,Brittany Kim,22,Male,"295 Hill Street, Millbrook, NY 12545",True,True,True,True
+452,Courtney Hayes,52,Male,"367 Elm Street, Millbrook, NY 12545",False,False,False,False
+453,Alexander Brown,35,Male,"128 Washington Street, Millbrook, NY 12545",True,False,True,False
+454,Cynthia Vang,26,Female,"111 Pine Street, Millbrook, NY 12545",False,False,False,False
+455,Alfred Galvan,75,Female,"362 Cedar Road, Millbrook, NY 12545",False,False,False,False
+456,Marie Moody,34,Male,"144 Pine Street, Millbrook, NY 12545",True,True,False,False
+457,Dustin Gallegos,24,Male,"129 Hill Street, Millbrook, NY 12545",False,True,False,False
+458,Brenda Thornton,63,Female,"261 Mill Road, Millbrook, NY 12545",False,True,False,False
+459,Aaron Miller,30,Female,"449 Franklin Avenue, Millbrook, NY 12545",True,True,True,True
+460,Ruben Dunn,57,Male,"104 Mill Road, Millbrook, NY 12545",False,False,False,False
+461,Kelsey Rodriguez,59,Male,"224 Chestnut Ridge Road, Millbrook, NY 12545",False,False,False,False
+462,Eric Williams,26,Male,"362 Church Street, Millbrook, NY 12545",False,False,False,False
+463,Riley Bryant,67,Male,"491 Elm Street, Millbrook, NY 12545",False,True,False,False
+464,Taylor Carlson,44,Female,"10 Washington Street, Millbrook, NY 12545",True,True,False,False
+465,Jose Allen,83,Male,"384 Route 44, Millbrook, NY 12545",False,False,False,False
+466,Jeffrey Mendez,22,Male,"231 Meadow Lane, Millbrook, NY 12545",False,False,False,False
+467,Jason Beck,46,Male,"411 Church Street, Millbrook, NY 12545",False,True,False,False
+468,William Jones,54,Male,"425 Chestnut Ridge Road, Millbrook, NY 12545",False,False,False,False
+469,Katie Mcneil,55,Female,"13 Elm Street, Millbrook, NY 12545",True,True,False,False
+470,Jeanette Harrison,25,Female,"420 Maple Avenue, Millbrook, NY 12545",False,True,False,False
+471,Veronica King,82,Female,"234 Cedar Road, Millbrook, NY 12545",True,True,False,False
+472,Richard Cooper,34,Male,"314 Maple Avenue, Millbrook, NY 12545",False,False,False,False
+473,Lori Ingram,62,Male,"12 Main Street, Millbrook, NY 12545",True,False,False,False
+474,Evelyn Williams,21,Female,"462 Route 44, Millbrook, NY 12545",True,True,False,False
+475,Robin Thompson,53,Male,"121 Church Street, Millbrook, NY 12545",True,False,False,False
+476,Julie Dominguez,48,Male,"437 Elm Street, Millbrook, NY 12545",True,True,False,False
+477,Robin Brown,36,Female,"20 Meadow Lane, Millbrook, NY 12545",True,True,False,False
+478,Judith Carter,78,Female,"400 Mill Road, Millbrook, NY 12545",False,True,False,False
+479,Curtis Williams,71,Female,"223 Oak Lane, Millbrook, NY 12545",False,True,False,False
+480,Kaylee Hays,56,Female,"70 Pine Street, Millbrook, NY 12545",False,False,False,False
+481,Dawn Mullins,36,Male,"211 Washington Street, Millbrook, NY 12545",True,True,False,False
+482,Howard Norman,56,Male,"186 Franklin Avenue, Millbrook, NY 12545",False,True,False,False
+483,Evelyn Martinez,84,Female,"111 Park Avenue, Millbrook, NY 12545",True,False,False,False
+484,Steve Paul,62,Male,"132 Franklin Avenue, Millbrook, NY 12545",True,True,False,False
+485,Jasmine Beltran,30,Female,"394 Pine Street, Millbrook, NY 12545",False,True,False,False
+486,Jonathan Glass MD,75,Female,"227 Cedar Road, Millbrook, NY 12545",False,False,False,False
+487,Monica Miller,37,Male,"293 Maple Avenue, Millbrook, NY 12545",True,False,False,False
+488,Samantha Gardner,78,Female,"469 Maple Avenue, Millbrook, NY 12545",True,False,True,False
+489,Bobby Guerrero,56,Male,"488 Oak Lane, Millbrook, NY 12545",False,True,False,False
+490,Lance Simmons,18,Male,"405 Cedar Road, Millbrook, NY 12545",False,False,False,False
+491,Heather Williams,20,Male,"38 Route 44, Millbrook, NY 12545",False,False,False,False
+492,Heather Bolton,79,Male,"260 Hill Street, Millbrook, NY 12545",False,True,False,False
+493,William Gould,80,Female,"57 Park Avenue, Millbrook, NY 12545",True,True,True,True
+494,Mark Cox,42,Male,"20 Main Street, Millbrook, NY 12545",False,True,False,False
+495,Meghan Cisneros,73,Female,"119 Oak Lane, Millbrook, NY 12545",False,True,False,False
+496,Lawrence Harrington,50,Female,"4 Park Avenue, Millbrook, NY 12545",False,True,False,False
+497,Austin Osborne,55,Female,"14 Mill Road, Millbrook, NY 12545",True,False,False,False
+498,James Bradley,23,Female,"216 Washington Street, Millbrook, NY 12545",True,False,False,False
+499,Meghan Rush,75,Male,"336 Cedar Road, Millbrook, NY 12545",True,False,True,True
+500,Phillip Berry,61,Male,"55 Franklin Avenue, Millbrook, NY 12545",True,True,False,False
+501,Jennifer Banks,62,Female,"388 Pine Street, Millbrook, NY 12545",False,True,False,False
+502,Brian Fitzgerald,49,Female,"254 Pine Street, Millbrook, NY 12545",True,True,False,False
+503,Mr. Justin Green III,62,Male,"162 Route 44, Millbrook, NY 12545",False,False,False,False
+504,Zachary Mitchell,78,Female,"82 Mill Road, Millbrook, NY 12545",False,False,False,False
+505,Katherine Martinez,64,Male,"159 Hill Street, Millbrook, NY 12545",False,True,False,False
+506,Jodi Roach,38,Female,"60 Mill Road, Millbrook, NY 12545",False,False,False,False
+507,Brandon Fleming,53,Male,"305 Route 82, Millbrook, NY 12545",True,True,True,True
+508,Emma Reed,36,Female,"366 Mill Road, Millbrook, NY 12545",True,False,True,True
+509,Joshua Vance,37,Female,"406 Pine Street, Millbrook, NY 12545",True,False,False,False
+510,Michelle Ho,74,Male,"109 Hill Street, Millbrook, NY 12545",False,False,False,False
+511,Rebecca Hicks,35,Female,"30 Cedar Road, Millbrook, NY 12545",False,True,False,False
+512,Curtis Taylor,64,Female,"486 Washington Street, Millbrook, NY 12545",False,False,False,False
+513,Allison Spencer,66,Male,"415 Franklin Avenue, Millbrook, NY 12545",False,False,False,False
+514,Robert Arnold,31,Female,"192 Mill Road, Millbrook, NY 12545",False,True,False,False
+515,Angelica Parker,32,Male,"432 Park Avenue, Millbrook, NY 12545",True,False,False,False
+516,Dr. Kelly Hammond DVM,48,Male,"228 Route 44, Millbrook, NY 12545",False,True,False,False
+517,William Day,18,Female,"183 Main Street, Millbrook, NY 12545",True,True,False,False
+518,Michael Cooper,71,Female,"183 Main Street, Millbrook, NY 12545",False,True,False,False
+519,Penny Bowman,20,Female,"146 Route 82, Millbrook, NY 12545",False,True,False,False
+520,Vincent Reynolds,33,Female,"116 Main Street, Millbrook, NY 12545",True,True,False,False
+521,Amy Martinez,74,Female,"251 Hill Street, Millbrook, NY 12545",True,False,False,False
+522,Christopher Morris,29,Female,"251 Route 82, Millbrook, NY 12545",False,True,True,True
+523,Hannah Everett,33,Female,"459 Elm Street, Millbrook, NY 12545",False,True,False,False
+524,Sarah King,41,Male,"118 Park Avenue, Millbrook, NY 12545",False,True,False,False
+525,Krista Martinez,45,Female,"161 Main Street, Millbrook, NY 12545",False,True,False,False
+526,Joseph Shaw,25,Male,"198 Franklin Avenue, Millbrook, NY 12545",True,False,False,False
+527,Todd Moore,53,Female,"148 Chestnut Ridge Road, Millbrook, NY 12545",False,True,False,False
+528,Michelle Jacobs,25,Female,"47 Meadow Lane, Millbrook, NY 12545",True,False,False,False
+529,Kristy Bryan,75,Male,"399 Maple Avenue, Millbrook, NY 12545",False,True,False,False
+530,Angel May,77,Female,"47 Route 44, Millbrook, NY 12545",True,False,False,False
+531,Marilyn Wang,67,Female,"124 Meadow Lane, Millbrook, NY 12545",True,True,False,False
+532,Mark Jimenez,45,Male,"359 Elm Street, Millbrook, NY 12545",False,True,True,True
+533,Donna Frye,58,Female,"90 Chestnut Ridge Road, Millbrook, NY 12545",True,False,True,False
+534,Dr. Michael Evans,81,Female,"325 Elm Street, Millbrook, NY 12545",False,True,False,False
+535,Anthony Gonzales,44,Female,"61 Cedar Road, Millbrook, NY 12545",True,False,False,False
+536,Mr. Lawrence Edwards,80,Male,"50 Mill Road, Millbrook, NY 12545",False,True,False,False
+537,Morgan Valencia,34,Female,"461 Meadow Lane, Millbrook, NY 12545",True,False,True,True
+538,Bianca Wood,50,Female,"113 Route 44, Millbrook, NY 12545",False,True,False,False
+539,Emma Owens,46,Female,"254 Maple Avenue, Millbrook, NY 12545",False,True,False,False
+540,David Davis,30,Female,"493 Maple Avenue, Millbrook, NY 12545",True,False,True,False
+541,James Gilbert,63,Male,"337 Meadow Lane, Millbrook, NY 12545",True,True,False,False
+542,Sean Moore,52,Male,"365 Mill Road, Millbrook, NY 12545",True,True,True,True
+543,Kenneth Edwards,23,Female,"245 Mill Road, Millbrook, NY 12545",True,True,False,False
+544,Kathleen Robertson,64,Female,"426 Mill Road, Millbrook, NY 12545",False,True,False,False
+545,Mr. Alexander Landry MD,42,Male,"302 Cedar Road, Millbrook, NY 12545",True,True,False,False
+546,Cindy Gomez,83,Male,"499 Washington Street, Millbrook, NY 12545",False,True,False,False
+547,Johnny Khan,27,Female,"349 Chestnut Ridge Road, Millbrook, NY 12545",True,False,True,True
+548,Julie Herrera,73,Male,"421 Franklin Avenue, Millbrook, NY 12545",False,False,False,False
+549,Jessica Khan,47,Female,"49 Washington Street, Millbrook, NY 12545",False,False,False,False
+550,Pamela Diaz,22,Male,"74 Chestnut Ridge Road, Millbrook, NY 12545",False,True,False,False
+551,Kelly Lee,50,Male,"261 Franklin Avenue, Millbrook, NY 12545",False,False,False,False
+552,Angel Gordon,82,Male,"70 Cedar Road, Millbrook, NY 12545",True,True,False,False
+553,Diana Hays,35,Male,"260 Route 44, Millbrook, NY 12545",True,True,False,False
+554,Barbara Hester,66,Female,"231 Oak Lane, Millbrook, NY 12545",False,True,False,False
+555,Robert Morgan,28,Male,"498 Mill Road, Millbrook, NY 12545",True,True,False,False
+556,Nicole Gonzalez,43,Male,"129 Pine Street, Millbrook, NY 12545",True,False,False,False
+557,Kathryn Williams,80,Female,"313 Franklin Avenue, Millbrook, NY 12545",False,True,False,False
+558,Gary Wells,76,Male,"326 Elm Street, Millbrook, NY 12545",True,False,False,False
+559,Larry Robertson,44,Male,"182 Route 44, Millbrook, NY 12545",True,True,False,False
+560,Louis Martin,66,Female,"316 Hill Street, Millbrook, NY 12545",True,False,False,False
+561,Nancy Evans MD,50,Male,"188 Elm Street, Millbrook, NY 12545",False,False,False,False
+562,Kim Erickson,18,Female,"31 Franklin Avenue, Millbrook, NY 12545",True,False,False,False
+563,Robert Richardson,38,Female,"152 Elm Street, Millbrook, NY 12545",False,False,False,False
+564,Veronica Silva,72,Female,"36 Washington Street, Millbrook, NY 12545",True,False,False,False
+565,Molly Watts,23,Female,"414 Pine Street, Millbrook, NY 12545",True,False,False,False
+566,John Coffey,22,Male,"364 Cedar Road, Millbrook, NY 12545",True,True,False,False
+567,Paula Lane,20,Female,"414 Maple Avenue, Millbrook, NY 12545",False,False,False,False
+568,Lauren Jackson,70,Male,"220 Oak Lane, Millbrook, NY 12545",False,True,False,False
+569,Lisa Randall,40,Male,"163 Oak Lane, Millbrook, NY 12545",True,False,True,True
+570,Michael Johnson,70,Male,"220 Route 44, Millbrook, NY 12545",False,True,False,False
+571,Ashley Smith,54,Male,"120 Cedar Road, Millbrook, NY 12545",True,False,False,False
+572,Christian Vaughn,34,Male,"336 Chestnut Ridge Road, Millbrook, NY 12545",False,False,False,False
+573,Reginald Knapp,18,Male,"182 Route 82, Millbrook, NY 12545",False,True,False,False
+574,Nancy Brown,68,Male,"106 Elm Street, Millbrook, NY 12545",True,False,False,False
+575,Daniel Nguyen,62,Male,"205 Maple Avenue, Millbrook, NY 12545",True,False,False,False
+576,Kelly Edwards,21,Male,"44 Elm Street, Millbrook, NY 12545",True,False,False,False
+577,Thomas Peterson,79,Male,"301 Franklin Avenue, Millbrook, NY 12545",True,True,False,False
+578,Raymond Le,82,Female,"184 Meadow Lane, Millbrook, NY 12545",False,False,False,False
+579,Melissa Bishop,49,Female,"84 Church Street, Millbrook, NY 12545",False,True,False,False
+580,David Grant,51,Female,"250 Meadow Lane, Millbrook, NY 12545",False,False,False,False
+581,William Evans,56,Male,"441 Washington Street, Millbrook, NY 12545",True,False,True,False
+582,Daniel Bush,43,Female,"196 Church Street, Millbrook, NY 12545",True,True,False,False
+583,Gregory Peck,51,Female,"417 Meadow Lane, Millbrook, NY 12545",False,False,False,False
+584,Denise Martinez,71,Female,"7 Maple Avenue, Millbrook, NY 12545",True,False,False,False
+585,Jamie Baird,20,Male,"127 Route 82, Millbrook, NY 12545",False,True,False,False
+586,Tina Ballard,67,Male,"466 Chestnut Ridge Road, Millbrook, NY 12545",False,False,False,False
+587,Dwayne Klein,29,Male,"248 Meadow Lane, Millbrook, NY 12545",False,True,False,False
+588,Jeremy Scott,82,Male,"148 Pine Street, Millbrook, NY 12545",False,True,False,False
+589,Dale Ryan,71,Female,"143 Chestnut Ridge Road, Millbrook, NY 12545",False,True,False,False
+590,Melissa Taylor,22,Female,"199 Washington Street, Millbrook, NY 12545",True,False,False,False
+591,Laurie Sanchez,74,Female,"426 Cedar Road, Millbrook, NY 12545",True,True,True,True
+592,Kiara Little,34,Female,"492 Pine Street, Millbrook, NY 12545",True,True,True,True
+593,Jason Love,64,Male,"384 Route 44, Millbrook, NY 12545",False,False,False,False
+594,Randy Smith,40,Male,"313 Washington Street, Millbrook, NY 12545",False,True,False,False
+595,Tanya Russell,31,Male,"314 Washington Street, Millbrook, NY 12545",False,False,False,False
+596,Sherry Woods,83,Female,"82 Washington Street, Millbrook, NY 12545",False,False,False,False
+597,Victor Morris,68,Male,"131 Oak Lane, Millbrook, NY 12545",True,False,True,True
+598,Susan Davis,55,Male,"218 Washington Street, Millbrook, NY 12545",True,False,True,True
+599,Kimberly Sharp,81,Female,"472 Main Street, Millbrook, NY 12545",False,True,False,False
+600,Susan Thompson,55,Female,"403 Mill Road, Millbrook, NY 12545",False,True,False,False
+601,Casey Gillespie,67,Male,"345 Washington Street, Millbrook, NY 12545",False,True,False,False
+602,Jennifer Simpson DVM,47,Male,"384 Hill Street, Millbrook, NY 12545",True,True,False,False
+603,Tammy Mcdowell,68,Male,"445 Elm Street, Millbrook, NY 12545",True,True,False,False
+604,Keith Rodriguez,80,Male,"161 Church Street, Millbrook, NY 12545",True,False,False,False
+605,Mrs. Virginia Daniels,69,Male,"117 Franklin Avenue, Millbrook, NY 12545",False,True,False,False
+606,Todd Rosales MD,55,Male,"383 Cedar Road, Millbrook, NY 12545",False,True,False,False
+607,Brian Martin,47,Female,"327 Maple Avenue, Millbrook, NY 12545",True,True,False,False
+608,David Lopez,68,Female,"289 Main Street, Millbrook, NY 12545",False,False,False,False
+609,Rachel Bradley,22,Female,"152 Park Avenue, Millbrook, NY 12545",True,False,False,False
+610,Casey Chase,46,Male,"61 Church Street, Millbrook, NY 12545",False,True,False,False
+611,Samantha Robertson,21,Female,"28 Cedar Road, Millbrook, NY 12545",True,False,True,True
+612,Michael Lopez,27,Male,"43 Elm Street, Millbrook, NY 12545",False,True,False,False
+613,Franklin Wright,73,Male,"423 Maple Avenue, Millbrook, NY 12545",True,True,False,False
+614,David Molina,34,Female,"177 Main Street, Millbrook, NY 12545",True,False,True,True
+615,Elizabeth Sharp,34,Male,"98 Maple Avenue, Millbrook, NY 12545",True,False,True,True
+616,Matthew Schwartz,51,Male,"494 Maple Avenue, Millbrook, NY 12545",True,True,False,False
+617,Bryan Parker,23,Female,"98 Main Street, Millbrook, NY 12545",True,True,False,False
+618,Jonathan Jacobson,70,Female,"330 Washington Street, Millbrook, NY 12545",True,False,False,False
+619,Emily Wilson,83,Female,"5 Church Street, Millbrook, NY 12545",False,True,False,False
+620,Elizabeth Mendez,60,Male,"22 Chestnut Ridge Road, Millbrook, NY 12545",False,False,False,False
+621,Casey Hernandez,40,Female,"57 Church Street, Millbrook, NY 12545",False,True,False,False
+622,Lisa Perry,72,Female,"330 Church Street, Millbrook, NY 12545",True,False,False,False
+623,Kaitlin Medina,33,Male,"144 Chestnut Ridge Road, Millbrook, NY 12545",True,True,False,False
+624,Colleen Wright,25,Female,"435 Park Avenue, Millbrook, NY 12545",False,True,False,False
+625,Shelley Miller,21,Female,"167 Maple Avenue, Millbrook, NY 12545",True,False,False,False
+626,Michael Miller,21,Female,"76 Pine Street, Millbrook, NY 12545",True,True,False,False
+627,Amy Kelley,73,Male,"495 Pine Street, Millbrook, NY 12545",True,True,True,True
+628,Laura Hernandez,42,Male,"294 Hill Street, Millbrook, NY 12545",True,False,False,False
+629,Joseph Wilson,84,Male,"59 Cedar Road, Millbrook, NY 12545",True,True,True,False
+630,Kevin Davis,84,Male,"99 Chestnut Ridge Road, Millbrook, NY 12545",False,True,False,False
+631,Rhonda Chavez,44,Female,"243 Route 82, Millbrook, NY 12545",False,True,False,False
+632,Joyce Brown,49,Male,"49 Chestnut Ridge Road, Millbrook, NY 12545",False,False,False,False
+633,Robert Cummings,67,Male,"32 Oak Lane, Millbrook, NY 12545",False,False,False,False
+634,Robert Reese,78,Female,"277 Franklin Avenue, Millbrook, NY 12545",False,False,False,False
+635,Amber Cooper,68,Female,"154 Route 82, Millbrook, NY 12545",True,True,False,False
+636,Zachary Michael,36,Female,"68 Route 44, Millbrook, NY 12545",True,True,True,True
+637,Timothy Johnson,38,Male,"372 Maple Avenue, Millbrook, NY 12545",True,True,True,True
+638,Randy Cannon,22,Male,"143 Pine Street, Millbrook, NY 12545",True,True,False,False
+639,Maria Fisher,59,Male,"232 Washington Street, Millbrook, NY 12545",False,False,False,False
+640,Janet Kane DVM,78,Female,"79 Maple Avenue, Millbrook, NY 12545",False,True,True,True
+641,Michael Stanley,39,Female,"116 Hill Street, Millbrook, NY 12545",False,True,False,False
+642,Martha Bailey,38,Male,"270 Meadow Lane, Millbrook, NY 12545",True,True,False,False
+643,Joshua Rice,18,Female,"381 Elm Street, Millbrook, NY 12545",False,False,False,False
+644,Courtney Smith,22,Female,"168 Cedar Road, Millbrook, NY 12545",True,True,False,False
+645,Edwin Nunez,29,Female,"284 Cedar Road, Millbrook, NY 12545",False,True,False,False
+646,Kim Morrow,63,Male,"369 Route 82, Millbrook, NY 12545",False,True,False,False
+647,Gregory Hill,51,Female,"66 Elm Street, Millbrook, NY 12545",True,True,False,False
+648,Molly Rodriguez,66,Female,"248 Route 44, Millbrook, NY 12545",True,True,False,False
+649,Jennifer Miranda,62,Male,"387 Pine Street, Millbrook, NY 12545",False,False,False,False
+650,Alexis Harris,44,Male,"44 Main Street, Millbrook, NY 12545",False,True,False,False
+651,Andrew Harper,43,Female,"42 Franklin Avenue, Millbrook, NY 12545",True,True,True,False
+652,Amber Yang,64,Female,"227 Maple Avenue, Millbrook, NY 12545",False,True,False,False
+653,David Robinson,73,Male,"167 Franklin Avenue, Millbrook, NY 12545",False,True,False,False
+654,Amy Gordon,80,Male,"279 Elm Street, Millbrook, NY 12545",True,True,False,False
+655,Robert Dennis,65,Female,"379 Church Street, Millbrook, NY 12545",False,True,False,False
+656,Kyle Chambers,78,Female,"427 Mill Road, Millbrook, NY 12545",True,True,True,True
+657,Eric Thomas,43,Female,"197 Mill Road, Millbrook, NY 12545",False,True,False,False
+658,Connie Turner,53,Female,"267 Pine Street, Millbrook, NY 12545",True,True,False,False
+659,Travis Hobbs,18,Male,"268 Cedar Road, Millbrook, NY 12545",False,True,False,False
+660,Lori Simmons,25,Female,"8 Pine Street, Millbrook, NY 12545",True,False,False,False
+661,William David DDS,69,Female,"476 Elm Street, Millbrook, NY 12545",False,False,False,False
+662,Emma Butler,64,Male,"164 Washington Street, Millbrook, NY 12545",True,False,False,False
+663,James Webster,73,Female,"85 Pine Street, Millbrook, NY 12545",False,False,False,False
+664,Samuel Turner,31,Male,"55 Elm Street, Millbrook, NY 12545",False,True,False,False
+665,Renee Melendez,45,Female,"47 Route 82, Millbrook, NY 12545",False,False,False,False
+666,Tracy Grant,19,Female,"432 Route 44, Millbrook, NY 12545",False,False,False,False
+667,David Harris,43,Male,"104 Church Street, Millbrook, NY 12545",False,True,False,False
+668,Tammy Boone,31,Male,"42 Hill Street, Millbrook, NY 12545",False,False,False,False
+669,Nathaniel Lee,76,Female,"468 Maple Avenue, Millbrook, NY 12545",False,False,False,False
+670,Michael Morrison,73,Female,"268 Church Street, Millbrook, NY 12545",False,True,False,False
+671,Chelsea Gill,24,Female,"263 Chestnut Ridge Road, Millbrook, NY 12545",False,True,False,False
+672,Kristin Mendoza,20,Male,"387 Park Avenue, Millbrook, NY 12545",True,True,True,True
+673,Felicia Krueger,40,Female,"259 Meadow Lane, Millbrook, NY 12545",True,False,False,False
+674,Timothy Hayden,35,Male,"114 Meadow Lane, Millbrook, NY 12545",False,False,False,False
+675,Zachary Mendoza,55,Male,"40 Maple Avenue, Millbrook, NY 12545",True,True,False,False
+676,Larry Harris,32,Female,"417 Hill Street, Millbrook, NY 12545",False,True,False,False
+677,Kristen Rowe,81,Male,"129 Oak Lane, Millbrook, NY 12545",False,False,False,False
+678,Joseph Howard,45,Female,"8 Washington Street, Millbrook, NY 12545",True,True,False,False
+679,Jose Crawford,56,Female,"416 Hill Street, Millbrook, NY 12545",False,False,False,False
+680,William Harrison,74,Female,"176 Meadow Lane, Millbrook, NY 12545",False,True,False,False
+681,Suzanne Wood,34,Female,"101 Franklin Avenue, Millbrook, NY 12545",True,True,False,False
+682,Justin Walker,61,Female,"478 Maple Avenue, Millbrook, NY 12545",True,False,False,False
+683,Dean Donovan,42,Male,"366 Maple Avenue, Millbrook, NY 12545",False,True,False,False
+684,Jennifer Hernandez,34,Male,"275 Chestnut Ridge Road, Millbrook, NY 12545",True,True,False,False
+685,James Whitaker,30,Female,"137 Hill Street, Millbrook, NY 12545",True,True,False,False
+686,Mr. Michael Scott PhD,42,Female,"395 Route 44, Millbrook, NY 12545",False,False,False,False
+687,Maria Henry,85,Male,"375 Chestnut Ridge Road, Millbrook, NY 12545",True,True,False,False
+688,Robert Jackson,27,Male,"129 Route 82, Millbrook, NY 12545",True,True,False,False
+689,Katherine Stark,84,Male,"109 Oak Lane, Millbrook, NY 12545",False,True,False,False
+690,Maria Brown,35,Male,"21 Route 44, Millbrook, NY 12545",True,True,False,False
+691,Ryan Landry,51,Female,"269 Church Street, Millbrook, NY 12545",True,True,False,False
+692,Pamela Gutierrez,25,Female,"260 Hill Street, Millbrook, NY 12545",False,True,False,False
+693,Crystal Mann,57,Male,"102 Cedar Road, Millbrook, NY 12545",False,False,False,False
+694,Jonathan Brooks,59,Female,"223 Meadow Lane, Millbrook, NY 12545",False,False,False,False
+695,Mary Jensen,58,Male,"247 Chestnut Ridge Road, Millbrook, NY 12545",True,True,True,True
+696,Mr. Aaron Arnold,23,Female,"283 Washington Street, Millbrook, NY 12545",False,False,False,False
+697,Joseph Hill,69,Male,"25 Mill Road, Millbrook, NY 12545",False,False,False,False
+698,Alicia Li,43,Female,"353 Franklin Avenue, Millbrook, NY 12545",True,True,False,False
+699,Renee Browning,81,Male,"281 Franklin Avenue, Millbrook, NY 12545",False,False,False,False
+700,Brent Hernandez,76,Male,"418 Cedar Road, Millbrook, NY 12545",False,False,False,False
+701,Joseph Ochoa,73,Female,"382 Route 44, Millbrook, NY 12545",False,False,False,False
+702,James Watson,76,Male,"133 Mill Road, Millbrook, NY 12545",False,False,False,False
+703,Karl Branch,50,Female,"189 Hill Street, Millbrook, NY 12545",True,False,False,False
+704,Michael Abbott,70,Female,"477 Elm Street, Millbrook, NY 12545",False,False,False,False
+705,Shannon Malone,39,Male,"372 Maple Avenue, Millbrook, NY 12545",False,False,False,False
+706,James Tran,38,Female,"434 Maple Avenue, Millbrook, NY 12545",True,False,False,False
+707,Adam Jackson,21,Female,"211 Hill Street, Millbrook, NY 12545",False,True,False,False
+708,Mr. Richard Knight PhD,79,Female,"428 Elm Street, Millbrook, NY 12545",True,True,False,False
+709,Joseph Williams,79,Female,"395 Church Street, Millbrook, NY 12545",True,False,False,False
+710,Sean Clay,41,Female,"431 Hill Street, Millbrook, NY 12545",True,False,False,False
+711,Anthony Jones,72,Male,"364 Elm Street, Millbrook, NY 12545",False,True,False,False
+712,Stephanie Elliott,26,Female,"213 Pine Street, Millbrook, NY 12545",True,False,False,False
+713,Timothy Edwards,20,Female,"226 Maple Avenue, Millbrook, NY 12545",True,False,True,True
+714,Laurie Goodwin,48,Female,"131 Hill Street, Millbrook, NY 12545",True,True,False,False
+715,Jennifer Jones,57,Female,"476 Route 44, Millbrook, NY 12545",False,True,False,False
+716,David Davenport,53,Female,"474 Chestnut Ridge Road, Millbrook, NY 12545",False,True,False,False
+717,Steven Rivera,41,Male,"277 Hill Street, Millbrook, NY 12545",False,False,False,False
+718,Brenda Hinton,23,Female,"248 Cedar Road, Millbrook, NY 12545",False,False,False,False
+719,Kathryn Mccann,83,Male,"190 Main Street, Millbrook, NY 12545",False,True,False,False
+720,Jeffrey Roberson,21,Male,"469 Mill Road, Millbrook, NY 12545",False,True,False,False
+721,Randy Friedman,23,Male,"180 Church Street, Millbrook, NY 12545",False,False,False,False
+722,Raymond Johnson,68,Male,"41 Mill Road, Millbrook, NY 12545",True,True,False,False
+723,Willie Henry,79,Female,"431 Church Street, Millbrook, NY 12545",True,False,False,False
+724,Todd Reynolds,74,Male,"314 Meadow Lane, Millbrook, NY 12545",True,False,False,False
+725,Mary Miller,83,Male,"441 Oak Lane, Millbrook, NY 12545",True,True,False,False
+726,Rebecca Marquez,25,Female,"176 Chestnut Ridge Road, Millbrook, NY 12545",False,True,False,False
+727,Christian Dawson,43,Female,"150 Main Street, Millbrook, NY 12545",True,False,False,False
+728,Nancy Stewart,68,Female,"325 Hill Street, Millbrook, NY 12545",True,True,False,False
+729,Aaron Parker,62,Male,"139 Route 44, Millbrook, NY 12545",True,True,False,False
+730,Derrick Anderson,61,Female,"271 Meadow Lane, Millbrook, NY 12545",True,True,True,True
+731,Jerry Peters,22,Female,"419 Main Street, Millbrook, NY 12545",False,True,False,False
+732,Alexander Gomez,43,Male,"212 Park Avenue, Millbrook, NY 12545",False,False,False,False
+733,Kyle Nguyen,85,Female,"272 Church Street, Millbrook, NY 12545",False,False,False,False
+734,Edgar Hughes,36,Female,"66 Mill Road, Millbrook, NY 12545",True,False,False,False
+735,Steven Stein,37,Female,"424 Pine Street, Millbrook, NY 12545",False,False,False,False
+736,Laura Jackson,29,Female,"156 Route 82, Millbrook, NY 12545",True,True,True,False
+737,Charles Turner,64,Male,"423 Maple Avenue, Millbrook, NY 12545",False,True,False,False
+738,Arthur Hamilton MD,18,Female,"201 Franklin Avenue, Millbrook, NY 12545",False,False,False,False
+739,Mr. David Wright,31,Female,"124 Main Street, Millbrook, NY 12545",False,False,False,False
+740,Linda Gonzalez,81,Male,"456 Oak Lane, Millbrook, NY 12545",False,True,False,False
+741,Eric Rush,55,Female,"343 Chestnut Ridge Road, Millbrook, NY 12545",False,False,False,False
+742,Manuel Brock,54,Male,"191 Mill Road, Millbrook, NY 12545",True,False,False,False
+743,George Ochoa,28,Female,"4 Cedar Road, Millbrook, NY 12545",False,True,False,False
+744,Valerie Taylor,20,Male,"409 Route 82, Millbrook, NY 12545",True,False,False,False
+745,Travis Harris,50,Male,"294 Route 82, Millbrook, NY 12545",True,True,False,False
+746,Vincent Novak,23,Male,"191 Washington Street, Millbrook, NY 12545",True,True,False,False
+747,Michael Henry,67,Male,"227 Elm Street, Millbrook, NY 12545",True,False,False,False
+748,Dana Bennett,27,Female,"117 Washington Street, Millbrook, NY 12545",True,True,False,False
+749,Jenna Wilson,22,Male,"302 Franklin Avenue, Millbrook, NY 12545",False,False,False,False
+750,Leslie Gardner,40,Female,"142 Franklin Avenue, Millbrook, NY 12545",False,True,False,False
+751,Krista Benton,27,Male,"460 Main Street, Millbrook, NY 12545",False,False,False,False
+752,Michael Gonzales,61,Male,"39 Elm Street, Millbrook, NY 12545",False,False,False,False
+753,Michael Fuentes,19,Male,"355 Hill Street, Millbrook, NY 12545",True,False,False,False
+754,Jennifer Porter,30,Female,"333 Route 82, Millbrook, NY 12545",False,True,False,False
+755,Dana Hopkins,57,Male,"210 Mill Road, Millbrook, NY 12545",False,True,False,False
+756,Rachel Jones,19,Female,"225 Maple Avenue, Millbrook, NY 12545",True,False,False,False
+757,Karen Morales DDS,82,Female,"251 Meadow Lane, Millbrook, NY 12545",True,True,False,False
+758,Melissa Stephens,80,Female,"407 Meadow Lane, Millbrook, NY 12545",False,False,False,False
+759,Heather Woodard,34,Female,"91 Church Street, Millbrook, NY 12545",False,False,False,False
+760,Margaret Miller,26,Female,"376 Route 44, Millbrook, NY 12545",True,True,False,False
+761,Mary Kelly,32,Female,"38 Route 44, Millbrook, NY 12545",False,False,False,False
+762,Amanda Terrell,41,Female,"100 Washington Street, Millbrook, NY 12545",False,True,False,False
+763,Jennifer Goodwin,55,Female,"328 Route 44, Millbrook, NY 12545",False,False,False,False
+764,Jessica Smith,52,Female,"35 Mill Road, Millbrook, NY 12545",False,True,False,False
+765,Jorge Stone,66,Male,"30 Route 82, Millbrook, NY 12545",True,False,False,False
+766,Laura Griffin,79,Male,"334 Meadow Lane, Millbrook, NY 12545",True,False,False,False
+767,Raymond Chapman,77,Male,"84 Main Street, Millbrook, NY 12545",True,True,False,False
+768,Haley Johnson,67,Male,"281 Pine Street, Millbrook, NY 12545",False,False,False,False
+769,Jason Nixon,26,Male,"344 Route 44, Millbrook, NY 12545",False,False,False,False
+770,Todd Thomas,51,Female,"154 Maple Avenue, Millbrook, NY 12545",False,True,False,False
+771,Jesse Clark,52,Female,"215 Maple Avenue, Millbrook, NY 12545",False,False,False,False
+772,Mr. Jeffrey Horton,18,Female,"432 Elm Street, Millbrook, NY 12545",False,True,False,False
+773,Eric Patrick,57,Female,"83 Route 44, Millbrook, NY 12545",True,False,False,False
+774,Samuel Wong,81,Female,"435 Mill Road, Millbrook, NY 12545",False,True,False,False
+775,Carly Riggs,39,Female,"426 Mill Road, Millbrook, NY 12545",False,False,False,False
+776,Christopher Moore,77,Female,"201 Hill Street, Millbrook, NY 12545",True,False,False,False
+777,Tina Hall,81,Male,"468 Park Avenue, Millbrook, NY 12545",False,False,False,False
+778,Cody Davidson,28,Male,"327 Route 44, Millbrook, NY 12545",True,True,False,False
+779,Allen Mendez,31,Male,"63 Elm Street, Millbrook, NY 12545",True,True,False,False
+780,Kevin Price,77,Male,"251 Hill Street, Millbrook, NY 12545",True,True,False,False
+781,Christine Goodwin,47,Female,"375 Elm Street, Millbrook, NY 12545",True,True,False,False
+782,Amy Garcia,52,Female,"275 Route 82, Millbrook, NY 12545",True,False,False,False
+783,Chelsea Nguyen,54,Female,"398 Pine Street, Millbrook, NY 12545",False,False,False,False
+784,Dennis Huffman,22,Male,"422 Washington Street, Millbrook, NY 12545",True,True,False,False
+785,Margaret Harper,43,Female,"317 Franklin Avenue, Millbrook, NY 12545",True,True,False,False
+786,Laurie Bailey,79,Female,"424 Main Street, Millbrook, NY 12545",False,True,False,False
+787,Lisa Cervantes,21,Female,"286 Elm Street, Millbrook, NY 12545",False,False,False,False
+788,Elizabeth Mendez,59,Male,"320 Main Street, Millbrook, NY 12545",True,True,True,False
+789,Cesar Wilson,35,Female,"376 Franklin Avenue, Millbrook, NY 12545",False,True,False,False
+790,Clayton Steele,57,Male,"89 Route 44, Millbrook, NY 12545",False,False,False,False
+791,Jennifer Taylor,56,Male,"203 Washington Street, Millbrook, NY 12545",True,False,False,False
+792,Cody Reid,31,Male,"227 Elm Street, Millbrook, NY 12545",True,True,False,False
+793,Maria Cooke,49,Male,"443 Route 44, Millbrook, NY 12545",False,False,False,False
+794,Katherine Taylor,68,Female,"222 Elm Street, Millbrook, NY 12545",True,True,False,False
+795,Jerry Brown,55,Male,"196 Meadow Lane, Millbrook, NY 12545",True,False,False,False
+796,Adam Taylor,40,Male,"68 Hill Street, Millbrook, NY 12545",False,True,False,False
+797,Tracey Wagner,80,Female,"264 Church Street, Millbrook, NY 12545",True,True,False,False
+798,Michael Perry PhD,32,Female,"361 Park Avenue, Millbrook, NY 12545",True,True,False,False
+799,Bradley Johnson DDS,42,Male,"110 Maple Avenue, Millbrook, NY 12545",True,True,False,False
+800,Donald Medina,34,Female,"425 Pine Street, Millbrook, NY 12545",True,False,False,False
+801,Jim Newton,83,Male,"127 Route 82, Millbrook, NY 12545",True,False,False,False
+802,Krista Wilson,70,Male,"183 Chestnut Ridge Road, Millbrook, NY 12545",False,False,False,False
+803,Reginald Morrow,68,Male,"477 Route 44, Millbrook, NY 12545",False,False,False,False
+804,Rodney Williams,56,Male,"369 Chestnut Ridge Road, Millbrook, NY 12545",True,True,False,False
+805,Kimberly Fritz,68,Female,"158 Hill Street, Millbrook, NY 12545",False,True,False,False
+806,Ronald Potter,23,Male,"35 Meadow Lane, Millbrook, NY 12545",True,False,False,False
+807,Zachary Cole,84,Female,"64 Route 44, Millbrook, NY 12545",True,False,False,False
+808,Robert Gonzales,24,Female,"50 Washington Street, Millbrook, NY 12545",True,False,False,False
+809,Patricia Young PhD,68,Female,"255 Washington Street, Millbrook, NY 12545",True,False,False,False
+810,Heather Page,59,Female,"325 Chestnut Ridge Road, Millbrook, NY 12545",True,False,False,False
+811,Carol Taylor,81,Male,"276 Washington Street, Millbrook, NY 12545",False,True,False,False
+812,Daniel Brown,32,Female,"451 Hill Street, Millbrook, NY 12545",False,True,False,False
+813,Douglas Ryan,46,Male,"417 Washington Street, Millbrook, NY 12545",True,True,False,False
+814,Michael Roberts,50,Female,"201 Park Avenue, Millbrook, NY 12545",False,False,False,False
+815,Scott Duke,44,Female,"393 Franklin Avenue, Millbrook, NY 12545",True,False,True,False
+816,Anna Estes,53,Male,"35 Main Street, Millbrook, NY 12545",False,False,False,False
+817,Tamara Riddle,46,Male,"482 Pine Street, Millbrook, NY 12545",True,False,False,False
+818,Beth Cline,55,Male,"480 Main Street, Millbrook, NY 12545",False,True,False,False
+819,Michael Poole,74,Female,"8 Park Avenue, Millbrook, NY 12545",True,True,True,True
+820,Megan Burns,44,Female,"343 Route 82, Millbrook, NY 12545",True,False,False,False
+821,Debra Perry,72,Male,"424 Hill Street, Millbrook, NY 12545",False,True,False,False
+822,Mark Beard,50,Male,"438 Hill Street, Millbrook, NY 12545",False,True,False,False
+823,Jose Ramirez,85,Male,"174 Route 82, Millbrook, NY 12545",True,False,False,False
+824,Jackie Clements,83,Male,"15 Elm Street, Millbrook, NY 12545",False,False,True,True
+825,Aaron Schroeder,27,Female,"147 Cedar Road, Millbrook, NY 12545",True,False,False,False
+826,Monica Ellis,22,Male,"308 Park Avenue, Millbrook, NY 12545",False,False,False,False
+827,Heather Brown,55,Male,"406 Pine Street, Millbrook, NY 12545",False,False,False,False
+828,Claudia Jordan,30,Male,"21 Mill Road, Millbrook, NY 12545",True,False,False,False
+829,Derrick Clayton,48,Male,"38 Franklin Avenue, Millbrook, NY 12545",False,True,False,False
+830,Kenneth Knight,64,Female,"157 Mill Road, Millbrook, NY 12545",False,True,False,False
+831,Mr. Michael Williams,69,Male,"132 Oak Lane, Millbrook, NY 12545",True,False,False,False
+832,Richard Stevens,73,Female,"455 Hill Street, Millbrook, NY 12545",False,True,False,False
+833,Scott Alexander,32,Male,"28 Franklin Avenue, Millbrook, NY 12545",True,False,True,True
+834,Tyler Harris,46,Male,"406 Hill Street, Millbrook, NY 12545",True,False,True,True
+835,Bonnie Santos,25,Female,"429 Mill Road, Millbrook, NY 12545",True,False,False,False
+836,Timothy Hill,22,Male,"342 Hill Street, Millbrook, NY 12545",True,False,False,False
+837,Danielle Watson,46,Female,"194 Pine Street, Millbrook, NY 12545",True,True,True,True
+838,Carol Sanders,64,Female,"162 Meadow Lane, Millbrook, NY 12545",False,False,False,False
+839,Michael Young,85,Male,"439 Elm Street, Millbrook, NY 12545",True,True,False,False
+840,Michele Smith,62,Female,"257 Pine Street, Millbrook, NY 12545",True,False,True,False
+841,Casey Perez,19,Female,"87 Maple Avenue, Millbrook, NY 12545",False,False,False,False
+842,Alexandra Dominguez,44,Female,"262 Maple Avenue, Millbrook, NY 12545",False,False,False,False
+843,Virginia Henderson,53,Female,"153 Church Street, Millbrook, NY 12545",False,True,False,False
+844,Benjamin Reyes,53,Female,"401 Park Avenue, Millbrook, NY 12545",True,False,False,False
+845,Ashley Edwards,43,Female,"268 Maple Avenue, Millbrook, NY 12545",True,False,False,False
+846,Breanna Ayala,60,Female,"218 Meadow Lane, Millbrook, NY 12545",True,False,True,True
+847,Brandi Haney,44,Female,"136 Mill Road, Millbrook, NY 12545",False,True,False,False
+848,Joseph Smith,37,Male,"380 Cedar Road, Millbrook, NY 12545",True,True,True,True
+849,Jessica Bowen,28,Male,"449 Elm Street, Millbrook, NY 12545",False,True,False,False
+850,Brittany Jenkins,55,Female,"93 Park Avenue, Millbrook, NY 12545",True,False,False,False
+851,Shannon Miller,23,Male,"241 Mill Road, Millbrook, NY 12545",False,True,False,False
+852,Paul Lawrence,40,Female,"424 Route 44, Millbrook, NY 12545",True,False,False,False
+853,Victor Edwards,64,Female,"291 Chestnut Ridge Road, Millbrook, NY 12545",True,True,False,False
+854,Donald Miller,63,Male,"237 Franklin Avenue, Millbrook, NY 12545",True,True,False,False
+855,Lindsay Lawson,29,Female,"312 Main Street, Millbrook, NY 12545",False,False,False,False
+856,Melissa Abbott,30,Female,"141 Park Avenue, Millbrook, NY 12545",False,True,False,False
+857,Elizabeth Holmes,79,Female,"486 Main Street, Millbrook, NY 12545",True,False,False,False
+858,Nicole Phillips,77,Female,"302 Main Street, Millbrook, NY 12545",True,False,False,False
+859,Steven Blevins,60,Male,"190 Pine Street, Millbrook, NY 12545",True,True,False,False
+860,Brian Porter MD,85,Female,"43 Franklin Avenue, Millbrook, NY 12545",False,False,False,False
+861,Vanessa Hatfield,22,Female,"380 Main Street, Millbrook, NY 12545",True,False,False,False
+862,Bonnie Valencia,54,Female,"90 Oak Lane, Millbrook, NY 12545",True,True,False,False
+863,Holly Vega,48,Male,"341 Washington Street, Millbrook, NY 12545",True,True,False,False
+864,Tiffany Townsend,26,Female,"433 Chestnut Ridge Road, Millbrook, NY 12545",True,False,False,False
+865,Austin Baker,68,Male,"318 Cedar Road, Millbrook, NY 12545",False,True,False,False
+866,Antonio Mccormick,46,Male,"363 Maple Avenue, Millbrook, NY 12545",False,False,False,False
+867,Lori Mason,57,Female,"382 Elm Street, Millbrook, NY 12545",True,False,False,False
+868,Michael Miller,58,Female,"265 Pine Street, Millbrook, NY 12545",True,True,False,False
+869,Lisa Ramirez,28,Male,"37 Main Street, Millbrook, NY 12545",False,True,False,False
+870,Jorge Harris,40,Female,"41 Main Street, Millbrook, NY 12545",False,True,False,False
+871,Kimberly Myers,18,Male,"344 Washington Street, Millbrook, NY 12545",True,True,False,False
+872,Sandra Becker,63,Male,"307 Meadow Lane, Millbrook, NY 12545",False,False,False,False
+873,Michael Blair,38,Female,"423 Oak Lane, Millbrook, NY 12545",False,False,False,False
+874,Amy Miller,53,Female,"41 Oak Lane, Millbrook, NY 12545",True,True,False,False
+875,Jesse Lynch,71,Male,"397 Chestnut Ridge Road, Millbrook, NY 12545",False,True,False,False
+876,Patrick Yang,74,Male,"267 Route 44, Millbrook, NY 12545",False,False,False,False
+877,Michael Miles,18,Male,"147 Meadow Lane, Millbrook, NY 12545",True,False,False,False
+878,Troy Mills,80,Male,"333 Route 82, Millbrook, NY 12545",True,False,False,False
+879,Michelle Jackson,71,Female,"46 Park Avenue, Millbrook, NY 12545",False,False,False,False
+880,Richard Adams,72,Female,"1 Pine Street, Millbrook, NY 12545",True,True,False,False
+881,Patricia Johnson,57,Female,"108 Mill Road, Millbrook, NY 12545",False,False,False,False
+882,Denise Brown,32,Female,"332 Pine Street, Millbrook, NY 12545",True,False,False,False
+883,Laura Jones,38,Female,"456 Park Avenue, Millbrook, NY 12545",False,True,True,True
+884,Ian Porter,64,Male,"109 Hill Street, Millbrook, NY 12545",True,False,False,False
+885,Holly Scott,70,Female,"445 Chestnut Ridge Road, Millbrook, NY 12545",False,False,False,False
+886,Kenneth Sharp,26,Female,"417 Park Avenue, Millbrook, NY 12545",False,True,False,False
+887,Jordan Williams,69,Female,"90 Oak Lane, Millbrook, NY 12545",False,True,False,False
+888,Dana Ruiz,74,Female,"476 Cedar Road, Millbrook, NY 12545",True,True,False,False
+889,Chris Velazquez,43,Female,"453 Pine Street, Millbrook, NY 12545",True,False,False,False
+890,Kristen Sloan,58,Male,"153 Meadow Lane, Millbrook, NY 12545",False,False,True,True
+891,Jennifer Morris,52,Male,"174 Oak Lane, Millbrook, NY 12545",False,True,False,False
+892,Nathan Nelson,80,Male,"158 Park Avenue, Millbrook, NY 12545",True,True,False,False
+893,Jake Shaw,42,Female,"431 Oak Lane, Millbrook, NY 12545",True,False,False,False
+894,Cassie Brock,55,Male,"177 Route 82, Millbrook, NY 12545",True,True,False,False
+895,Dr. Andrea Marshall,19,Male,"340 Church Street, Millbrook, NY 12545",True,True,True,True
+896,Ryan Murphy,24,Female,"146 Church Street, Millbrook, NY 12545",True,True,True,False
+897,Aimee Gonzalez,51,Female,"324 Route 44, Millbrook, NY 12545",True,False,True,True
+898,Elizabeth Dean,34,Female,"161 Route 82, Millbrook, NY 12545",False,False,False,False
+899,Kevin Snyder,60,Male,"420 Church Street, Millbrook, NY 12545",True,False,False,False
+900,Christie Mccullough,76,Male,"485 Mill Road, Millbrook, NY 12545",False,False,False,False
+901,Danielle Smith,68,Female,"239 Hill Street, Millbrook, NY 12545",True,False,False,False
+902,David Reed,71,Female,"424 Franklin Avenue, Millbrook, NY 12545",True,False,False,False
+903,Sherry Tapia,41,Male,"113 Main Street, Millbrook, NY 12545",False,True,False,False
+904,Matthew Sweeney,42,Male,"332 Cedar Road, Millbrook, NY 12545",False,False,False,False
+905,Ashley Moreno,69,Female,"243 Route 82, Millbrook, NY 12545",True,False,True,False
+906,Johnathan Brown,50,Female,"41 Oak Lane, Millbrook, NY 12545",False,True,False,False
+907,Michelle Davis DVM,66,Male,"258 Route 82, Millbrook, NY 12545",False,False,False,False
+908,Kelly Haynes,46,Female,"285 Elm Street, Millbrook, NY 12545",False,False,False,False
+909,William Miller,80,Male,"202 Church Street, Millbrook, NY 12545",False,True,False,False
+910,Casey Wilkins,39,Male,"307 Meadow Lane, Millbrook, NY 12545",True,True,False,False
+911,Keith Graham,43,Male,"461 Cedar Road, Millbrook, NY 12545",False,True,False,False
+912,Cynthia Green,45,Male,"398 Church Street, Millbrook, NY 12545",True,False,False,False
+913,Robert Haynes,66,Female,"51 Maple Avenue, Millbrook, NY 12545",True,True,True,False
+914,Emily Nelson,66,Female,"201 Elm Street, Millbrook, NY 12545",True,False,False,False
+915,Dale Chan,37,Male,"39 Hill Street, Millbrook, NY 12545",True,False,False,False
+916,Brittney Martin,80,Male,"259 Franklin Avenue, Millbrook, NY 12545",False,False,False,False
+917,Jason Herrera,78,Male,"454 Meadow Lane, Millbrook, NY 12545",False,False,False,False
+918,Christine Parker,66,Male,"117 Church Street, Millbrook, NY 12545",True,True,True,False
+919,Bryan Moore,18,Male,"93 Maple Avenue, Millbrook, NY 12545",True,True,False,False
+920,Samantha Terry,30,Female,"387 Chestnut Ridge Road, Millbrook, NY 12545",True,False,True,True
+921,Russell Murphy,68,Female,"350 Pine Street, Millbrook, NY 12545",True,True,False,False
+922,David Kelly,73,Female,"258 Main Street, Millbrook, NY 12545",False,False,False,False
+923,Megan Green,79,Female,"425 Route 44, Millbrook, NY 12545",True,False,False,False
+924,Amanda Sullivan MD,49,Male,"268 Mill Road, Millbrook, NY 12545",False,False,False,False
+925,Danielle Murray,47,Male,"235 Main Street, Millbrook, NY 12545",True,True,False,False
+926,Brenda Smith,46,Male,"311 Park Avenue, Millbrook, NY 12545",True,False,False,False
+927,Vickie Anderson,66,Male,"463 Cedar Road, Millbrook, NY 12545",True,False,False,False
+928,Jacqueline Mccoy,62,Male,"357 Washington Street, Millbrook, NY 12545",True,True,False,False
+929,Lauren Green,47,Female,"62 Main Street, Millbrook, NY 12545",False,True,True,True
+930,Alison Brown,33,Male,"127 Route 82, Millbrook, NY 12545",False,True,False,False
+931,Jill Anderson,57,Female,"409 Oak Lane, Millbrook, NY 12545",False,True,False,False
+932,Sandra Rivera,36,Female,"408 Elm Street, Millbrook, NY 12545",True,False,False,False
+933,Joel Jackson,35,Female,"294 Hill Street, Millbrook, NY 12545",True,True,False,False
+934,Samantha Foster,18,Female,"277 Maple Avenue, Millbrook, NY 12545",False,False,False,False
+935,Michael Thompson,64,Male,"107 Church Street, Millbrook, NY 12545",False,True,False,False
+936,Cody Ramirez,83,Female,"420 Mill Road, Millbrook, NY 12545",True,True,False,False
+937,Amanda Harvey,55,Female,"429 Oak Lane, Millbrook, NY 12545",True,True,False,False
+938,Edward Jenkins,68,Female,"73 Washington Street, Millbrook, NY 12545",False,True,False,False
+939,Amy Ramirez,80,Male,"486 Cedar Road, Millbrook, NY 12545",True,True,True,True
+940,Curtis Wilkerson,21,Male,"30 Hill Street, Millbrook, NY 12545",True,True,False,False
+941,Lydia Pham,18,Male,"364 Church Street, Millbrook, NY 12545",False,False,True,False
+942,Virginia Casey,25,Female,"288 Mill Road, Millbrook, NY 12545",True,True,True,True
+943,Joshua Washington,46,Female,"195 Hill Street, Millbrook, NY 12545",False,True,False,False
+944,Kathryn Price,72,Male,"172 Route 82, Millbrook, NY 12545",True,True,False,False
+945,Francis Robinson,20,Female,"41 Route 82, Millbrook, NY 12545",False,True,False,False
+946,Paula Brown,49,Male,"23 Pine Street, Millbrook, NY 12545",True,False,False,False
+947,Kendra Wang DVM,27,Male,"75 Chestnut Ridge Road, Millbrook, NY 12545",False,True,False,False
+948,Ariel Sandoval,51,Female,"160 Cedar Road, Millbrook, NY 12545",False,True,False,False
+949,Robert Stark,72,Female,"313 Maple Avenue, Millbrook, NY 12545",False,True,False,False
+950,Zachary Robinson,49,Female,"100 Hill Street, Millbrook, NY 12545",False,True,False,False
+951,Rebecca Kelly,67,Female,"417 Pine Street, Millbrook, NY 12545",True,False,False,False
+952,Sarah Thompson,24,Male,"167 Church Street, Millbrook, NY 12545",True,True,False,False
+953,Renee Wolfe,25,Male,"440 Hill Street, Millbrook, NY 12545",False,False,False,False
+954,Alyssa Haynes,82,Male,"421 Oak Lane, Millbrook, NY 12545",True,True,False,False
+955,Kristy Hart,74,Male,"196 Washington Street, Millbrook, NY 12545",True,False,False,False
+956,William Keith,84,Male,"56 Main Street, Millbrook, NY 12545",True,False,False,False
+957,Eric Henry Jr.,76,Female,"193 Route 82, Millbrook, NY 12545",True,True,False,False
+958,Daniel Fox,71,Male,"148 Mill Road, Millbrook, NY 12545",True,True,False,False
+959,Thomas Harris,84,Male,"157 Cedar Road, Millbrook, NY 12545",False,False,False,False
+960,Mitchell Sellers,68,Male,"444 Church Street, Millbrook, NY 12545",False,False,False,False
+961,Erica Johnson,25,Female,"476 Mill Road, Millbrook, NY 12545",False,True,False,False
+962,Sylvia Schroeder,51,Female,"427 Route 82, Millbrook, NY 12545",False,False,False,False
+963,Shannon Yu,52,Female,"479 Meadow Lane, Millbrook, NY 12545",True,False,False,False
+964,Tom Foster,49,Female,"126 Meadow Lane, Millbrook, NY 12545",True,False,True,False
+965,Eric Taylor,63,Male,"305 Main Street, Millbrook, NY 12545",False,True,False,False
+966,Travis Conner,33,Male,"294 Chestnut Ridge Road, Millbrook, NY 12545",True,False,False,False
+967,Marie Thompson,85,Female,"325 Pine Street, Millbrook, NY 12545",True,False,False,False
+968,Melissa Mcfarland,54,Female,"418 Chestnut Ridge Road, Millbrook, NY 12545",False,False,False,False
+969,Courtney Chapman,71,Male,"116 Pine Street, Millbrook, NY 12545",True,True,False,False
+970,Eric Barker,31,Male,"204 Maple Avenue, Millbrook, NY 12545",False,True,False,False
+971,Nicholas Rush,72,Female,"321 Route 82, Millbrook, NY 12545",False,False,False,False
+972,Jenna Gamble,65,Female,"388 Main Street, Millbrook, NY 12545",True,True,False,False
+973,Amanda Guzman,24,Female,"365 Church Street, Millbrook, NY 12545",True,False,True,True
+974,Tracy Walker,24,Female,"325 Route 44, Millbrook, NY 12545",False,True,False,False
+975,Taylor Taylor,50,Male,"376 Pine Street, Millbrook, NY 12545",False,True,False,False
+976,Cynthia Haas,40,Male,"443 Mill Road, Millbrook, NY 12545",True,False,False,False
+977,Stephen Davis,36,Male,"75 Park Avenue, Millbrook, NY 12545",False,True,False,False
+978,Margaret Tanner,36,Female,"260 Cedar Road, Millbrook, NY 12545",False,True,False,False
+979,Derek Wright,53,Female,"155 Route 44, Millbrook, NY 12545",False,True,False,False
+980,David Rodriguez,46,Male,"363 Chestnut Ridge Road, Millbrook, NY 12545",True,False,True,True
+981,James Oconnor,77,Male,"475 Cedar Road, Millbrook, NY 12545",False,True,False,False
+982,Stacey Snyder,19,Male,"51 Church Street, Millbrook, NY 12545",True,True,True,True
+983,Joshua Garcia,18,Male,"262 Meadow Lane, Millbrook, NY 12545",False,False,False,False
+984,Sean Curtis,64,Female,"125 Route 82, Millbrook, NY 12545",True,True,False,False
+985,Carla Jones,37,Male,"245 Route 44, Millbrook, NY 12545",False,True,False,False
+986,Elizabeth Flores,28,Male,"426 Washington Street, Millbrook, NY 12545",True,True,True,True
+987,Angela Jackson,19,Male,"122 Park Avenue, Millbrook, NY 12545",True,True,False,False
+988,Nicholas Payne,84,Male,"37 Cedar Road, Millbrook, NY 12545",True,True,True,True
+989,Anna Wheeler,29,Male,"124 Washington Street, Millbrook, NY 12545",False,False,False,False
+990,Karen Johnson,37,Male,"35 Oak Lane, Millbrook, NY 12545",False,False,False,False
+991,Carmen Preston,22,Male,"134 Franklin Avenue, Millbrook, NY 12545",False,True,False,False
+992,Brian Harris,54,Female,"274 Hill Street, Millbrook, NY 12545",True,True,False,False
+993,Michael Bowen,55,Female,"201 Main Street, Millbrook, NY 12545",False,True,False,False
+994,Deborah Campbell,26,Female,"285 Park Avenue, Millbrook, NY 12545",True,False,False,False
+995,Anthony Armstrong,70,Female,"59 Route 82, Millbrook, NY 12545",False,False,False,False
+996,Brittany Ward,61,Male,"126 Franklin Avenue, Millbrook, NY 12545",True,True,False,False
+997,Edward Stanley,41,Female,"401 Park Avenue, Millbrook, NY 12545",True,True,False,False
+998,Christina Johnson,47,Female,"224 Chestnut Ridge Road, Millbrook, NY 12545",True,False,False,False
+999,Edgar Miller,76,Male,"278 Franklin Avenue, Millbrook, NY 12545",False,True,False,False
+1000,Elizabeth Sanders,31,Male,"69 Washington Street, Millbrook, NY 12545",False,False,False,False

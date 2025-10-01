@@ -20,9 +20,9 @@ health-sqlite-lite/
 │  ├─ schema.sql
 │  └─ analysis.sql
 ├─ src/
-│  ├─ create_db.py         # NEW: creates clinic_simple.db from schema.sql
-│  └─ import_csv.py        # NEW: loads patients.csv into the DB
-├─ clinic_simple.db        # created by create_db.py
+│  ├─ create_db.py         
+│  └─ import_csv.py        
+├─ clinic_simple.db        
 ├─ requirements.txt
 └─ README.md
 ```
@@ -127,11 +127,17 @@ SQLAlchemy
 ---
 
 ## Deliverables (GitHub URL) submitted to brightspace called `sqlite_pandas_dbs`
-1. `sql/schema.sql`  
-2. `data/patients.csv` (≥25 rows)  
-3. `src/create_db.py` and `src/import_csv.py`  
-4. `sql/analysis.sql`  
-5. `clinic_simple.db` (checked in)  
-6. `README.md` with run steps (3–5 lines)
+1. `sql/schema.sql`
+2. `data/patients.csv` (≥25 rows)
+3. `src/create_db.py` and `src/import_csv.py`
+4. `sql/analysis.sql`
+5. `clinic_simple.db` (checked in)
+6. `README.md` with:
+   - Brief overview of the project (2-3 sentences)
+   - Run steps (how to recreate the database)
+   - **Query results section**: For each query (A-E) in `analysis.sql`, include:
+     - The query description
+     - A screenshot or text output of the results from DB Browser
+     - 1-2 sentence explanation of what the results show
 
 ---

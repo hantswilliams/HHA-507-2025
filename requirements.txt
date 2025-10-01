@@ -6,3 +6,5 @@ numpy
 matplotlib
 sqlalchemy
 seaborn
+faker
+tabulate 

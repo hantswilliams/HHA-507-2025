@@ -8,3 +8,4 @@ sqlalchemy
 seaborn
 faker
 tabulate 
+sweetviz

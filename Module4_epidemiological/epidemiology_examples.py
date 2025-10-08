@@ -11,6 +11,8 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 from tabulate import tabulate
+# import sweetviz as sv
+
 
 # Set seaborn style for clean visualizations
 sns.set_theme(style="whitegrid")
@@ -66,7 +68,7 @@ plt.title('Age Distribution of Study Population', fontsize=14, fontweight='bold'
 plt.xlabel('Age')
 plt.ylabel('Frequency')
 plt.tight_layout()
-plt.savefig('Module4_epidemiological/viz_age_distribution.png', dpi=300, bbox_inches='tight')
+# plt.savefig('Module4_epidemiological/viz_age_distribution.png', dpi=300, bbox_inches='tight')
 plt.show()
 plt.close()
 print("✓ Saved: viz_age_distribution.png")
@@ -81,7 +83,7 @@ axes[1].set_title('Smoking Status Distribution', fontsize=12, fontweight='bold')
 axes[1].set_xticklabels(['Non-Smoker', 'Smoker'])
 axes[1].set_ylabel('Count')
 plt.tight_layout()
-plt.savefig('Module4_epidemiological/viz_demographics.png', dpi=300, bbox_inches='tight')
+# plt.savefig('Module4_epidemiological/viz_demographics.png', dpi=300, bbox_inches='tight')
 plt.show()
 plt.close()
 print("✓ Saved: viz_demographics.png")
@@ -108,7 +110,7 @@ plt.xlabel('Has Cancer')
 plt.ylabel('Age')
 plt.xticks([0, 1], ['No', 'Yes'])
 plt.tight_layout()
-plt.savefig('Module4_epidemiological/viz_age_by_cancer.png', dpi=300, bbox_inches='tight')
+# plt.savefig('Module4_epidemiological/viz_age_by_cancer.png', dpi=300, bbox_inches='tight')
 plt.show()
 plt.close()
 print("✓ Saved: viz_age_by_cancer.png")
@@ -208,6 +210,7 @@ incidence_nonsmokers = nonsmokers_with_cancer / total_nonsmokers
 
 # Calculate Relative Risk
 relative_risk = incidence_smokers / incidence_nonsmokers
+round(relative_risk, 2)
 
 print(f"\nRELATIVE RISK CALCULATION:")
 print(f"RR = {incidence_smokers:.4f} / {incidence_nonsmokers:.4f}")
@@ -248,6 +251,22 @@ elif odds_ratio < 1:
     print(f"This means DECREASED odds of cancer with smoking exposure")
 else:
     print(f"OR = 1.0 means NO association between smoking and cancer")
+
+
+plt_counts = [250, 130, 143, 430, 240, 84, 150]
+
+for x in range(len(plt_counts)):
+    if plt_counts[x] < 100:
+        print("its bad")
+    elif plt_counts[x] >= 100 and plt_counts[x] < 200:
+        print("its ok")
+    elif plt_counts[x] >= 200 and plt_counts[x] < 400:
+        print("its ok")   
+    else:
+        print("perhaps something else going on")
+    
+
+
 
 
 # ============================================================================

@@ -46,3 +46,9 @@ print(anova_table)
 
 ## get means for each payer group of overall opioid
 df2.groupby('payer')['overall_opioid'].mean()
+
+## perform tukey test to see which groups are different
+from statsmodels.stats.multicomp import pairwise_tukeyhsd
+
+tukey = pairwise_tukeyhsd(endog=df2['overall_opioid'], groups=df2['payer'], alpha=0.05)
+print(tukey)

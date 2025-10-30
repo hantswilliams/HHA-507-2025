@@ -1,0 +1,51 @@
+provider_id,provider_name,specialty,quality_score,years_experience,network_status,medical_school,accepts_new_patients
+PR0001,Dr. Brown MD,Primary Care,4.08,21,In-Network,Other,1
+PR0002,Dr. Johnson PA,Endocrinology,3.21,10,In-Network,Other,1
+PR0003,Dr. Johnson DO,Internal Medicine,3.59,5,In-Network,Harvard,0
+PR0004,Dr. Williams PA,Emergency Medicine,3.08,6,In-Network,Johns Hopkins,0
+PR0005,Dr. Rodriguez DO,Endocrinology,4.61,26,In-Network,State University,1
+PR0006,Dr. Jones PA,Endocrinology,3.35,4,Out-of-Network,Other,1
+PR0007,Dr. Brown DO,Endocrinology,3.56,1,In-Network,State University,1
+PR0008,Dr. Jones PA,Primary Care,3.16,24,In-Network,State University,1
+PR0009,Dr. Garcia PA,Endocrinology,4.43,6,In-Network,Stanford,0
+PR0010,Dr. Rodriguez PA,Pulmonology,4.44,31,In-Network,State University,1
+PR0011,Dr. Johnson DO,Internal Medicine,4.32,20,In-Network,Other,0
+PR0012,Dr. Brown MD,Pulmonology,3.98,24,In-Network,State University,1
+PR0013,Dr. Garcia MD,Emergency Medicine,3.19,25,Out-of-Network,Other,1
+PR0014,Dr. Martinez DO,Primary Care,3.91,21,In-Network,Other,1
+PR0015,Dr. Martinez DO,Endocrinology,3.5,30,In-Network,State University,1
+PR0016,Dr. Smith MD,Primary Care,4.16,24,In-Network,State University,1
+PR0017,Dr. Smith DO,Primary Care,4.06,30,Out-of-Network,State University,1
+PR0018,Dr. Johnson MD,Emergency Medicine,3.18,22,Out-of-Network,Other,1
+PR0019,Dr. Garcia MD,Family Medicine,3.97,28,In-Network,State University,1
+PR0020,Dr. Rodriguez DO,Primary Care,3.84,7,Out-of-Network,State University,1
+PR0021,Dr. Jones PA,Cardiology,2.11,28,In-Network,Other,1
+PR0022,Dr. Brown DO,Internal Medicine,3.9,14,In-Network,State University,1
+PR0023,Dr. Martinez PA,Primary Care,3.28,10,In-Network,Other,1
+PR0024,Dr. Brown PA,Endocrinology,3.06,16,In-Network,State University,0
+PR0025,Dr. Miller DO,Emergency Medicine,3.08,16,In-Network,State University,1
+PR0026,Dr. Johnson MD,Pulmonology,3.43,31,Out-of-Network,State University,1
+PR0027,Dr. Miller NP,Primary Care,3.74,25,Out-of-Network,Other,0
+PR0028,Dr. Miller PA,Cardiology,2.82,13,In-Network,State University,1
+PR0029,Dr. Davis MD,Emergency Medicine,3.59,6,In-Network,Other,0
+PR0030,Dr. Johnson MD,Endocrinology,3.79,9,In-Network,Other,1
+PR0031,Dr. Miller NP,Primary Care,4.43,20,In-Network,State University,1
+PR0032,Dr. Johnson DO,Emergency Medicine,2.96,18,In-Network,Other,1
+PR0033,Dr. Brown DO,Primary Care,3.33,21,In-Network,Stanford,1
+PR0034,Dr. Rodriguez PA,Emergency Medicine,3.63,4,In-Network,State University,1
+PR0035,Dr. Williams PA,Primary Care,4.07,33,Out-of-Network,State University,1
+PR0036,Dr. Williams NP,Family Medicine,3.35,27,In-Network,Other,1
+PR0037,Dr. Davis DO,Cardiology,4.1,7,In-Network,State University,1
+PR0038,Dr. Johnson PA,Cardiology,2.53,6,Out-of-Network,State University,1
+PR0039,Dr. Rodriguez MD,Primary Care,2.87,15,In-Network,State University,1
+PR0040,Dr. Smith MD,Cardiology,3.67,18,In-Network,State University,0
+PR0041,Dr. Johnson DO,Internal Medicine,2.79,32,In-Network,Johns Hopkins,1
+PR0042,Dr. Williams PA,Family Medicine,2.91,11,In-Network,Other,1
+PR0043,Dr. Davis PA,Cardiology,3.24,20,Out-of-Network,Other,1
+PR0044,Dr. Brown PA,Cardiology,3.89,24,In-Network,State University,0
+PR0045,Dr. Smith DO,Emergency Medicine,2.55,15,In-Network,Other,0
+PR0046,Dr. Miller MD,Internal Medicine,3.59,7,Out-of-Network,State University,1
+PR0047,Dr. Miller NP,Endocrinology,4.02,21,Out-of-Network,Other,1
+PR0048,Dr. Davis NP,Cardiology,3.4,26,Out-of-Network,State University,1
+PR0049,Dr. Miller PA,Cardiology,3.32,14,In-Network,State University,1
+PR0050,Dr. Williams DO,Pulmonology,3.7,21,In-Network,State University,1

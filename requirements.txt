@@ -4,6 +4,7 @@ requests
 scipy
 numpy
 matplotlib
+statsmodels
 sqlalchemy
 seaborn
 faker

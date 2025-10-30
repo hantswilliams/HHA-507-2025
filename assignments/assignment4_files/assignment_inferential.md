@@ -36,16 +36,16 @@ To start, you’ll use the following NHANES variables for analysis:
 
    Use the questions below to guide your analysis. Remember to transform or recode variables where needed as specified, and determine the appropriate statistical tests that should be performed based on the question and variables.
 
-   - **Question 1**: "Is there an association between marital status (married or not married) and education level (bachelor’s degree or higher vs. less than a bachelor’s degree)?"  
+   - **Question 1**: "Is there **an association** between marital status (married or not married) and education level (bachelor’s degree or higher vs. less than a bachelor’s degree)?"  
      - Variables: `DMDMARTZ` (marital status) and `DMDEDUC2` (education level). Recode as specified.
 
-   - **Question 2**: "Is there a difference in the mean sedentary behavior time between those who are married and those who are not married?"  
+   - **Question 2**: "Is there **a difference in the mean** sedentary behavior time between those who are married and those who are not married?"  
      - Variables: `DMDMARTZ` (marital status, recoded) and `PAD680` (sedentary behavior time, cleaned).
 
    - **Question 3**: "How do age and marital status affect systolic blood pressure?"  
      - Variables: `RIDAGEYR` (age), `DMDMARTZ` (marital status, recoded), and `BPXOSY3` (systolic blood pressure).
 
-   - **Question 4**: "Is there a correlation between self-reported weight and minutes of sedentary behavior?"  
+   - **Question 4**: "Is there a **correlation** between self-reported weight and minutes of sedentary behavior?"  
      - Variables: `WHD020` (self-reported weight, cleaned) and `PAD680` (sedentary behavior time, cleaned).
 
    - **Question 5 (Creative Analysis)**: Develop your own unique question using at least one of the variables listed above. Ensure that your question can be answered using one of the following tests: chi-square, t-test, ANOVA, or correlation. Clearly state your question, explain why you chose the test, and document your findings.

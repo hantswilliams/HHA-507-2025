@@ -1,0 +1,21 @@
+facility_id,facility_name,facility_type,bed_count,quality_rating,parking_spaces,year_founded,has_cafeteria
+F001,Memorial Medical Center,Clinic,19,3,466,1968,1
+F002,St. Mary Hospital,Clinic,12,4,250,1975,0
+F003,Memorial Hospital,Clinic,6,1,494,2001,1
+F004,St. Mary Health Center,Hospital,246,5,442,1971,1
+F005,Community Medical Center,Hospital,129,5,373,1970,0
+F006,St. Mary Hospital,Clinic,18,4,84,2000,0
+F007,General Hospital,Clinic,14,4,265,1987,1
+F008,Community Hospital,Emergency Room,19,5,114,1969,1
+F009,General Health Center,Urgent Care,13,3,57,1978,0
+F010,St. Mary Medical Center,Urgent Care,5,2,350,2000,1
+F011,Community Hospital,Urgent Care,3,3,392,1953,1
+F012,Community Hospital,Clinic,7,4,480,2004,1
+F013,Regional Clinic,Hospital,201,1,473,1977,1
+F014,Memorial Medical Center,Emergency Room,8,4,381,1953,1
+F015,Memorial Medical Center,Clinic,0,5,487,1971,1
+F016,Memorial Health Center,Clinic,19,5,125,1994,1
+F017,General Clinic,Hospital,209,4,223,2016,1
+F018,Regional Clinic,Clinic,10,2,96,2015,1
+F019,St. Mary Hospital,Clinic,2,4,64,1983,1
+F020,Regional Hospital,Urgent Care,8,4,410,2004,0

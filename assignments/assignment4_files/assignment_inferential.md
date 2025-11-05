@@ -6,6 +6,12 @@ In this assignment, you will use NHANES data to perform basic inferential statis
 
 - NHANES Data: [NHANES 2021-2023](https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx?Cycle=2021-2023)
 
+- When loading into PANDAS, remember that this is a SAS file type, which can be loaded file: 
+```python
+import pandas as pd 
+df = pd.read_sas(filepath, format='xport')
+```
+
 ## Data Preparation
 
 To start, you’ll use the following NHANES variables for analysis:

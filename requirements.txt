@@ -10,3 +10,11 @@ seaborn
 faker
 tabulate 
 sweetviz
+scikit-learn
+flask
+plotly
+xgboost
+azure-ai-vision-imageanalysis
+python-dotenv
+shap
+mlflow

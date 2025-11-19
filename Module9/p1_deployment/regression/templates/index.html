@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetes Disease Progression Predictor</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 600;
+            color: #333;
+        }
+        .description {
+            font-size: 12px;
+            color: #666;
+            margin-bottom: 5px;
+        }
+        .range-hint {
+            font-size: 11px;
+            color: #999;
+            font-style: italic;
+        }
+        input[type="number"], select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        input[type="number"]:focus, select:focus {
+            outline: none;
+            border-color: #007bff;
+        }
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .result {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #e8f4fd;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .result h2 {
+            color: #0056b3;
+            margin: 0 0 10px 0;
+        }
+        .result .value {
+            font-size: 36px;
+            font-weight: bold;
+            color: #333;
+        }
+        .result .note {
+            font-size: 12px;
+            color: #666;
+            margin-top: 10px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+        @media (max-width: 600px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        .info-box {
+            background-color: #d4edda;
+            border: 1px solid #28a745;
+            border-radius: 4px;
+            padding: 15px;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+        .info-box strong {
+            color: #155724;
+        }
+        .section-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: #555;
+            margin: 20px 0 10px 0;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #eee;
+        }
+    </style>
+</head>
+<body>
+    <h1>Diabetes Disease Progression Predictor</h1>
+    <p class="subtitle">XGBoost Regression Model</p>
+
+    <div class="container">
+        <div class="info-box">
+            <strong>Easy Input:</strong> Enter real-world values in familiar units.
+            The system will automatically scale them for the model.
+        </div>
+
+        <form method="POST" action="/predict">
+            <div class="section-title">Demographics & Physical</div>
+            <div class="grid">
+                <div class="form-group">
+                    <label for="age">Age</label>
+                    <div class="description">Patient's age in years</div>
+                    <input type="number" id="age" name="age"
+                           min="20" max="80" step="1"
+                           value="{{ values.get('age', 50) }}" required>
+                    <div class="range-hint">Range: 20-80 years</div>
+                </div>
+
+                <div class="form-group">
+                    <label for="sex">Sex</label>
+                    <div class="description">Patient's biological sex</div>
+                    <select id="sex" name="sex" required>
+                        <option value="0" {% if values.get('sex', 0) == 0 %}selected{% endif %}>Male</option>
+                        <option value="1" {% if values.get('sex', 0) == 1 %}selected{% endif %}>Female</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="bmi">BMI</label>
+                    <div class="description">Body Mass Index (kg/m²)</div>
+                    <input type="number" id="bmi" name="bmi"
+                           min="15" max="45" step="0.1"
+                           value="{{ values.get('bmi', 25) }}" required>
+                    <div class="range-hint">Range: 15-45 kg/m²</div>
+                </div>
+
+                <div class="form-group">
+                    <label for="bp">Blood Pressure</label>
+                    <div class="description">Average blood pressure (mmHg)</div>
+                    <input type="number" id="bp" name="bp"
+                           min="60" max="130" step="1"
+                           value="{{ values.get('bp', 90) }}" required>
+                    <div class="range-hint">Range: 60-130 mmHg</div>
+                </div>
+            </div>
+
+            <div class="section-title">Cholesterol & Lipids</div>
+            <div class="grid">
+                <div class="form-group">
+                    <label for="s1">Total Cholesterol (S1)</label>
+                    <div class="description">TC level</div>
+                    <input type="number" id="s1" name="s1"
+                           min="100" max="350" step="1"
+                           value="{{ values.get('s1', 200) }}" required>
+                    <div class="range-hint">Range: 100-350 mg/dL</div>
+                </div>
+
+                <div class="form-group">
+                    <label for="s2">LDL Cholesterol (S2)</label>
+                    <div class="description">Low-density lipoproteins</div>
+                    <input type="number" id="s2" name="s2"
+                           min="50" max="250" step="1"
+                           value="{{ values.get('s2', 120) }}" required>
+                    <div class="range-hint">Range: 50-250 mg/dL</div>
+                </div>
+
+                <div class="form-group">
+                    <label for="s3">HDL Cholesterol (S3)</label>
+                    <div class="description">High-density lipoproteins</div>
+                    <input type="number" id="s3" name="s3"
+                           min="20" max="100" step="1"
+                           value="{{ values.get('s3', 50) }}" required>
+                    <div class="range-hint">Range: 20-100 mg/dL</div>
+                </div>
+
+                <div class="form-group">
+                    <label for="s4">TC/HDL Ratio (S4)</label>
+                    <div class="description">Total cholesterol to HDL ratio</div>
+                    <input type="number" id="s4" name="s4"
+                           min="2" max="10" step="0.1"
+                           value="{{ values.get('s4', 4.5) }}" required>
+                    <div class="range-hint">Range: 2-10</div>
+                </div>
+            </div>
+
+            <div class="section-title">Other Blood Markers</div>
+            <div class="grid">
+                <div class="form-group">
+                    <label for="s5">Triglycerides (S5)</label>
+                    <div class="description">Log of serum triglycerides</div>
+                    <input type="number" id="s5" name="s5"
+                           min="3" max="6.5" step="0.1"
+                           value="{{ values.get('s5', 4.5) }}" required>
+                    <div class="range-hint">Range: 3.0-6.5 (log scale)</div>
+                </div>
+
+                <div class="form-group">
+                    <label for="s6">Blood Sugar (S6)</label>
+                    <div class="description">Blood glucose level</div>
+                    <input type="number" id="s6" name="s6"
+                           min="60" max="150" step="1"
+                           value="{{ values.get('s6', 90) }}" required>
+                    <div class="range-hint">Range: 60-150 mg/dL</div>
+                </div>
+            </div>
+
+            <button type="submit">Predict Disease Progression</button>
+        </form>
+
+        {% if prediction is not none %}
+        <div class="result">
+            <h2>Prediction Result</h2>
+            <div class="value">{{ prediction }}</div>
+            <div class="note">
+                Disease progression measure one year after baseline<br>
+                (Lower values indicate less progression, typical range: 25 - 346)
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>

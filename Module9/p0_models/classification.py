@@ -28,7 +28,6 @@ data = load_breast_cancer()
 """
 The features (predictors) are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass.
 They describe characteristics of the cell nuclei present in the image. A few of the images c
-an be found at http://www.cs.wisc.edu/~street/images/
 The primary outcome to predict is whether the tumor is malignant or benign.  
 """
 
@@ -36,6 +35,7 @@ The primary outcome to predict is whether the tumor is malignant or benign.
 ### sklearn uses numpy arrays by default for data storage
 df = pd.DataFrame(data.data, columns=data.feature_names)
 df['target'] = data.target
+df['target'].value_counts()
 
 X = data.data           # features (measurements from the tumor), or we would do df.drop(columns=['target'])
 y = data.target         # labels: 0 = malignant, 1 = benign; or we would do df['target']
@@ -110,6 +110,7 @@ X_train, X_val, y_train, y_val = train_test_split(
 
 n_train = len(y_train)
 n_val = len(y_val)
+n_test = len(y_test)
 
 print("    Train samples:    ", n_train, f"({n_train / n_total:.1%}) of total")
 print("    Validation samples:", n_val,   f"({n_val / n_total:.1%}) of total")

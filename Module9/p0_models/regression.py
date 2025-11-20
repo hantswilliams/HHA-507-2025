@@ -219,9 +219,21 @@ xgb_model = XGBRegressor(
 
 ######### TRAINING SET ########
 ### This is where we create the model by fitting it to the training data
-
+import time
 print("  Fitting XGBoost model on the TRAIN data...")
+
+### THIS IS WHERE IT HAPPENS 
 xgb_model.fit(X_train, y_train) ## this is where the model learns from the data
+
+
+
+start_time = time.time()
+print(f"    Start time: {time.ctime(start_time)}")
+xgb_model.fit(X_train, y_train) ## this is where the model learns from the data
+end_time = time.time()
+print(f"    End time:   {time.ctime(end_time)}")
+elapsed_time = end_time - start_time
+print(f"    Elapsed time for training: {elapsed_time:.2f} seconds")
 
 
 
@@ -243,6 +255,16 @@ print(f"  MSE:  {xgb_val_mse:.3f}")
 print(f"  RMSE: {xgb_val_rmse:.3f}")
 print(f"  MAE:  {xgb_val_mae:.3f}")
 print(f"  R2:   {xgb_val_r2:.3f}")
+
+#### create df showing predicted vs actual for first 25 samples in validation set (optional)
+df_val_results = pd.DataFrame({
+    'Actual': y_val,
+    'Predicted': xgb_val_pred
+}).head(50)
+
+print("\nFirst 50 predictions on VALIDATION set:")
+print(df_val_results)
+
 
 
 ### lets now say that we want to tune some hyperparameters based on the validation
